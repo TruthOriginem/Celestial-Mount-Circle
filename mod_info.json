@@ -1,0 +1,10 @@
+{
+	"id":"Celestial Mount Circle",
+	"name":"Celestial Mount Circle",
+	"author":"Originem",
+	"version":"1.0",
+	"description":"A religious group which believe in nature.",
+	"gameVersion":"0.9a",
+	"jars":["jars/CMC.jar"],
+	"modPlugin":"data.scripts.CMCModPlugin"
+}
