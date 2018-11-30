@@ -1,0 +1,21 @@
+{
+  "displayName": "Funnel",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "cmc_spiritforce",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "cmc_spiritforce_Funnel",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "cmc_lepb"
+      }
+    }
+  ],
+  "wings": []
+}

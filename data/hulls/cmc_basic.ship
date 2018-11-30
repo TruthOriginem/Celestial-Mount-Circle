@@ -1,0 +1,151 @@
+{
+  "bounds": [
+    49.5,
+    12.5,
+    22,
+    24.5,
+    8.5,
+    30,
+    0.5,
+    24,
+    -29.5,
+    23,
+    -48.5,
+    12,
+    -50,
+    -12.5,
+    -32,
+    -23,
+    26.5,
+    -30,
+    43.5,
+    -23.5,
+    44,
+    -8,
+    37.5,
+    0.5
+  ],
+  "builtInMods": [
+    "cmc_homeforspirits_system"
+  ],
+  "builtInWings": [
+    "cmc_spiritforce_two_wing"
+  ],
+  "center": [
+    31,
+    51
+  ],
+  "collisionRadius": 68.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 37,
+      "location": [
+        -51,
+        -0.5
+      ],
+      "style": "CMC",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 29.5,
+      "location": [
+        -50.5,
+        8.5
+      ],
+      "style": "CMC",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 29.5,
+      "location": [
+        -50.5,
+        -9.5
+      ],
+      "style": "CMC",
+      "width": 8
+    }
+  ],
+  "height": 101,
+  "hullId": "cmc_basic",
+  "hullName": "cmc_basic",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    1,
+    -0
+  ],
+  "shieldRadius": 66,
+  "spriteName": "graphics/cmc/ships/cmc_basic.png",
+  "style": "CMC",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 58,
+      "arc": 153,
+      "id": "WS0001",
+      "locations": [
+        -16,
+        8
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        37,
+        7
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        33,
+        -15
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        7,
+        -17
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -18.5,
+        -9.5,
+        -13,
+        -15.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 63
+}

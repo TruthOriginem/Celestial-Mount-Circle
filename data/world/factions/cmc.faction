@@ -30,6 +30,7 @@
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
+		    "cmc_bp":10,
 		},
 		"hulls":{
 		},
@@ -41,7 +42,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["base_bp", "lowtech_bp", "luddic_church"],
+		"tags":["base_bp", "lowtech_bp", "luddic_church","cmc_bp"],
 		"hulls":[
 			"atlas",
 			"prometheus",
@@ -50,11 +51,9 @@
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":[],
+		"tags":["cmc_bp"],
 		"hulls":[
-			"condor",
 			"mora",
-			"legion",
 		],
 	},
 	"knownFighters":{
@@ -142,43 +141,6 @@
 			"coordinated_maneuvers",
 			"electronic_warfare",
 		],
-	},
-	"shipRoles":{
-		"carrierSmall":{
-			"includeDefault":true,
-			"condor_Strike":50,
-		},
-		"carrierMedium":{
-			"includeDefault":true,
-			"mora_Strike":50,
-		},
-		"carrierLarge":{
-			"legion_FS":50,
-			"legion_Strike":50,
-			#"fallback":{"combatCapital":1},
-		},
-		"combatMedium":{
-			"includeDefault":true,
-			"buffalo2_Fighter_Support":50,
-			"enforcer_Fighter_Support":50,
-		},
-		"combatFreighterMedium":{
-			"includeDefault":true,
-			"mule_Fighter_Support":50,
-		},
-		"combatLarge":{
-			"includeDefault":true,
-			"dominator_Fighter_Support":50,
-		},
-		"phaseSmall":{
-			"fallback":{"combatSmall":1},
-		},
-		"phaseMedium":{
-			"fallback":{"combatMedium":1},
-		},
-		"phaseLarge":{
-			"fallback2":{"combatLarge":1},
-		},
 	},
 	"illegalCommodities":[
 		"drugs",

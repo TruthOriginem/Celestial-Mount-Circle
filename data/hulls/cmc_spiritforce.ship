@@ -1,0 +1,98 @@
+{
+  "bounds": [
+    -16,
+    -12.5,
+    1,
+    -13.5,
+    23,
+    -0,
+    1,
+    13.5,
+    -16,
+    12.5,
+    -24,
+    -0
+  ],
+  "builtInMods": [
+    "advancedcore"
+  ],
+  "builtInWings": [],
+  "center": [
+    16,
+    27
+  ],
+  "collisionRadius": 27,
+  "engineSlots": [
+    {
+      "angle": 170,
+      "contrailSize": 2.840261,
+      "length": 6.342967,
+      "location": [
+        -17,
+        9
+      ],
+      "style": "CMC",
+      "width": 2.840261
+    },
+    {
+      "angle": -170,
+      "contrailSize": 2.840261,
+      "length": 6.342967,
+      "location": [
+        -17,
+        -9
+      ],
+      "style": "CMC",
+      "width": 2.840261
+    },
+    {
+      "angle": 170,
+      "contrailSize": 4.405499,
+      "length": 10.54267,
+      "location": [
+        -20.5,
+        5
+      ],
+      "style": "CMC",
+      "width": 4.405499
+    },
+    {
+      "angle": -170,
+      "contrailSize": 4.405499,
+      "length": 10.54267,
+      "location": [
+        -20.5,
+        -5
+      ],
+      "style": "CMC",
+      "width": 4.405499
+    }
+  ],
+  "height": 54,
+  "hullId": "cmc_spiritforce",
+  "hullName": "cmc_spiritforce",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1,
+    -0
+  ],
+  "shieldRadius": 25.5,
+  "spriteName": "graphics/cmc/ships/cmc_spiritforce.png",
+  "style": "CMC",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 12,
+      "id": "WS0001",
+      "locations": [
+        2,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 32
+}
