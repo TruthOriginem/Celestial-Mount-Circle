@@ -1,5 +1,7 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Clarity-Hellbore Cannon,cmc_clarity_hellbore,0,,3000,1000,,600,,200,5,18,,,,HIGH_EXPLOSIVE,600,,0.25,2.25,1,,0,10,5,10,,600,,,400,,"he18, midline_bp, LR, cmc_bp",,Celestial Mount Circle,,Anti Armor,,,,,,,,,,8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Low-Energy TPC,cmc_tpc,0,,100000,1000,,175,,0,0,,15,0.75,,ENERGY,125,,0,0.25,1,,0,10,2,5,,1000,,,,"SYSTEM,SHOW_IN_CODEX",,TPC_only,,,,,,,,,,,,,40
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Low-Energy Phase Lance,cmc_lepb,1,,1500,600,400,,,0,0,0,,,,ENERGY,,100,0.25,0.5,1,4,,,,,3200,,,,,SYSTEM,,,,,General,,,,,,,,,,20
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

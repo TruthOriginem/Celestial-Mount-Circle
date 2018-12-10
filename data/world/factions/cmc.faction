@@ -75,8 +75,9 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "luddic_church"],
+		"tags":["base_bp", "cmc_bp", "midline_bp", "missile_bp", "hightech_bp", "luddic_church"],
 		"weapons":[
+		    "cmc_clarity_hellbore",
 			"heavymauler",
 			"sabotpod",
 			"phasecl",
@@ -88,7 +89,7 @@
 		],
 	},
 	"priorityWeapons":{
-		"tags":[],
+		"tags":["cmc_bp"],
 		"weapons":[
 		],
 	},

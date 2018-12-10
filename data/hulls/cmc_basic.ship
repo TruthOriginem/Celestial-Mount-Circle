@@ -26,7 +26,8 @@
     0.5
   ],
   "builtInMods": [
-    "cmc_homeforspirits_system"
+    "cmc_homeforspirits_system",
+    "cmc_hpshieldgen"
   ],
   "builtInWings": [
     "cmc_spiritforce_two_wing"

@@ -50,7 +50,8 @@
     81
   ],
   "builtInMods": [
-    "cmc_homeforspirits_system"
+    "cmc_homeforspirits_system",
+    "cmc_hpshieldgen"
   ],
   "builtInWeapons": {
     "WS0025": "cmc_tpc",

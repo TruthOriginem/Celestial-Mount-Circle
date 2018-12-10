@@ -1,5 +1,8 @@
 {
-
+    "starSystems":{
+      "planet_name_yuanming":"Yuan Ming",
+      "planet_name_mingyue":"Ming Yue",
+    },
 	"shipSystem":{
       "linearDriveData0":"increased engine power",
 	},

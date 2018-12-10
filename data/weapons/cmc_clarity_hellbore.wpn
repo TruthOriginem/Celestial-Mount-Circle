@@ -1,0 +1,49 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 600,
+  "fireSoundTwo": "hellbore_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/cmc/weapons/cmc_clarity_hellbore_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    42,
+    0
+  ],
+  "hardpointSprite": "graphics/cmc/weapons/cmc_clarity_hellbore_hardpoint_base.png",
+  "id": "cmc_clarity_hellbore",
+  "muzzleFlashSpec": {
+    "length": 65,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ],
+    "particleCount": 50,
+    "particleDuration": 0.75,
+    "particleSizeMin": 10,
+    "particleSizeRange": 35,
+    "spread": 15
+  },
+  "projectileSpecId": "cmc_clarity_hellbore_shot",
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/cmc/weapons/cmc_clarity_hellbore_turret_recoil.png",
+  "turretOffsets": [
+    40,
+    0
+  ],
+  "turretSprite": "graphics/cmc/weapons/cmc_clarity_hellbore_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 10,
+  "autocharge":true
+}

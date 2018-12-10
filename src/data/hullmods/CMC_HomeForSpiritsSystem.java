@@ -30,6 +30,7 @@ public class CMC_HomeForSpiritsSystem extends BaseHullMod {
         if (ship.getAllWings().isEmpty()) return;
         float affectResult = 0f;
         for (FighterWingAPI wing : ship.getAllWings()) {
+            if (!wing.getWingId().startsWith("cmc_spiritforce")) continue;
             int alive = 0;
             for (ShipAPI fighter : wing.getWingMembers()) {
                 if (fighter.isAlive()) {
