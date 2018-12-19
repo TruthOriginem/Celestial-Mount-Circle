@@ -1,0 +1,20 @@
+{
+	"id":"cmc_oip",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/cmc/weapons/cmc_oip_turret_base.png",
+	"turretGlowSprite":"graphics/cmc/weapons/cmc_oip_turret_glow.png",
+	"hardpointSprite":"graphics/cmc/weapons/cmc_oip_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/cmc/weapons/cmc_oip_hardpoint_glow.png",
+	"glowColor":[200,200,255,255],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"cmc_oip_shot",  # projectile that will be fired
+	"fireSoundTwo":"cmc_oip_fire",
+}

@@ -14,40 +14,34 @@
             "weapons": {
                 "WS0008": "sabot",
                 "WS0009": "sabot",
-                "WS0010": "sabot"
+                "WS0011": "sabot",
+                "WS0012": "sabot"
             }
         },
         {
             "autofire": false,
-            "mode": "ALTERNATING",
-            "weapons": {
-                "WS0011": "atropos",
-                "WS0012": "atropos"
-            }
+            "mode": "LINKED",
+            "weapons": {"WS0010": "reaper"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "cmc_clarity_hellbore"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "cmc_clarity_aphrodite"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0006": "hephag",
-                "WS0007": "hephag"
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS0001": "railgun",
-                "WS0002": "railgun"
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS0003": "vulcan",
-                "WS0004": "vulcan",
-                "WS0005": "vulcan"
+                "WS0001": "cmc_oip",
+                "WS0002": "cmc_oip",
+                "WS0003": "cmc_oip",
+                "WS0004": "cmc_oip",
+                "WS0005": "cmc_oip"
             }
         }
     ],

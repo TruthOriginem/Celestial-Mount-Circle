@@ -1,6 +1,6 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 22,
+    "fluxCapacitors": 18,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "cmc_kunlun",
@@ -14,7 +14,7 @@
     "weaponGroups": [
         {
             "autofire": false,
-            "mode": "ALTERNATING",
+            "mode": "LINKED",
             "weapons": {
                 "WS0025": "cmc_tpc",
                 "WS0026": "cmc_tpc",
@@ -43,22 +43,22 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0024": "mark9"}
+            "weapons": {"WS0024": "cmc_clarity_aphrodite"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "railgun",
-                "WS0002": "railgun",
-                "WS0007": "vulcan",
-                "WS0008": "vulcan",
+                "WS0001": "cmc_oip",
+                "WS0002": "cmc_oip",
+                "WS0007": "cmc_oip",
+                "WS0008": "cmc_oip",
                 "WS0009": "vulcan",
                 "WS0010": "vulcan",
-                "WS0011": "lightneedler",
-                "WS0012": "lightneedler",
-                "WS0013": "vulcan",
-                "WS0014": "vulcan",
+                "WS0011": "railgun",
+                "WS0012": "railgun",
+                "WS0013": "cmc_oip",
+                "WS0014": "cmc_oip",
                 "WS0015": "vulcan",
                 "WS0016": "vulcan",
                 "WS0019": "vulcan",
@@ -68,5 +68,6 @@
                 "WS0023": "devastator"
             }
         }
-    ]
+    ],
+    "wings": []
 }

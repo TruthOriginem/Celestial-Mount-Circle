@@ -1,0 +1,67 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+  "fireSoundTwo": "hephaestus_fire",
+  "everyFrameEffect":"data.scripts.weapons.CMC_AphroditeEveryFrameEffect",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/cmc/weapons/cmc_clarity_aphrodite_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    40,
+    -3,
+    40,
+    3,
+    35,
+    10,
+    35,
+    -10
+  ],
+  "hardpointSprite": "graphics/cmc/weapons/cmc_clarity_aphrodite_hardpoint_base.png",
+  "id": "cmc_clarity_aphrodite",
+  "muzzleFlashSpec": {
+    "length": 54,
+    "particleColor": [
+      145,
+      210,
+      20,
+      215
+    ],
+    "particleCount": 20,
+    "particleDuration": 0.12,
+    "particleSizeMin": 16,
+    "particleSizeRange": 20,
+    "spread": 20
+  },
+  "projectileSpecId": "cmc_clarity_aphrodite_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/cmc/weapons/cmc_clarity_aphrodite_turret_recoil.png",
+  "turretOffsets": [
+    35,
+    -3,
+    35,
+    3,
+    30,
+    10,
+    30,
+    -10
+  ],
+  "turretSprite": "graphics/cmc/weapons/cmc_clarity_aphrodite_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 10
+}

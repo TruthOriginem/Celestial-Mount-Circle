@@ -1,0 +1,10 @@
+{
+		"cmc_oip_fire":
+	[
+		{"file":"sounds/cmcfx/fire/cmc_oip_fire.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/cmcfx/fire/cmc_oip_fire.ogg","pitch":1.05,"volume":0.8},
+		{"file":"sounds/cmcfx/fire/cmc_oip_fire.ogg","pitch":1.1,"volume":0.8},
+		{"file":"sounds/cmcfx/fire/cmc_oip_fire.ogg","pitch":0.95,"volume":0.8},
+		{"file":"sounds/cmcfx/fire/cmc_oip_fire.ogg","pitch":0.90,"volume":0.8},
+	],
+}

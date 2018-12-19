@@ -1,6 +1,8 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Clarity-Hellbore Cannon,cmc_clarity_hellbore,0,,3000,1000,,600,,200,5,18,,,,HIGH_EXPLOSIVE,600,,0.25,2.25,1,,0,10,5,10,,600,,,400,,"he18, midline_bp, LR, cmc_bp",,Celestial Mount Circle,,Anti Armor,,,,,,,,,,8
+O.I.P Rail Gun,cmc_oip,2,0.5,2000,500,,150,,10,30,6,,,,KINETIC,100,,0,1,1,,,,,,,1800,,,50,PD,"kinetic8, SR, rare_bp, cmc_bp",,Celestial Mount Circle,,Point Defense (Area),,,,,Spawn an emp arc which has %s damage with projectile towards nearby enemy entity when the projectile destorys target entity.,same,,,,3.75
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Clarity-Hellbore Cannon,cmc_clarity_hellbore,0,,3000,1000,,600,,200,5,18,,,,HIGH_EXPLOSIVE,600,,0.25,2.25,1,,0,10,5,10,,600,,,400,,"he18, midline_bp, LR, cmc_bp",,Celestial Mount Circle,,Anti Armor,,,,,,,,,,8
+Clarity-Aphrodite Gun,cmc_clarity_aphrodite,1,,4000,900,,150,,5,20,20,,,,KINETIC,150,,0,0.4,1,,0,6,2,6,,800,,,50,,"kinetic18, cmc_bp, midline_bp",,Celestial Mount Circle,,Anti Shield,,,,,Increase fire rate by at most %s while continues firing(Reach the top rate after %s seconds).,75% | 2,,,,7
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Low-Energy TPC,cmc_tpc,0,,100000,1000,,175,,0,0,,15,0.75,,ENERGY,125,,0,0.25,1,,0,10,2,5,,1000,,,,"SYSTEM,SHOW_IN_CODEX",,TPC_only,,,,,,,,,,,,,40
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

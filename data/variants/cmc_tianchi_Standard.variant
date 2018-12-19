@@ -1,0 +1,64 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 37,
+    "goalVariant": true,
+    "hullId": "cmc_tianchi",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "variantId": "cmc_tianchi_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "hurricane",
+                "WS0014": "hurricane"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0018": "sabot",
+                "WS0019": "sabot"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "cmc_clarity_aphrodite",
+                "WS0016": "cmc_clarity_aphrodite",
+                "WS0017": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "railgun",
+                "WS0002": "railgun",
+                "WS0020": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "cmc_oip",
+                "WS0004": "cmc_oip",
+                "WS0005": "cmc_oip",
+                "WS0006": "cmc_oip",
+                "WS0009": "cmc_oip",
+                "WS0010": "cmc_oip",
+                "WS0011": "cmc_oip",
+                "WS0012": "cmc_oip"
+            }
+        }
+    ],
+    "wings": ["longbow_wing"]
+}

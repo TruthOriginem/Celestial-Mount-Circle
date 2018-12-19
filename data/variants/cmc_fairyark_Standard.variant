@@ -1,7 +1,7 @@
 {
     "displayName": "Standard",
     "fluxCapacitors": 0,
-    "fluxVents": 29,
+    "fluxVents": 25,
     "goalVariant": true,
     "hullId": "cmc_fairyark",
     "hullMods": ["targetingunit"],
@@ -11,15 +11,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0012": "mark9"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS0001": "railgun",
-                "WS0002": "railgun"
-            }
+            "weapons": {"WS0012": "cmc_clarity_aphrodite"}
         },
         {
             "autofire": true,
@@ -30,8 +22,10 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0007": "vulcan",
-                "WS0008": "vulcan"
+                "WS0001": "cmc_oip",
+                "WS0002": "cmc_oip",
+                "WS0007": "cmc_oip",
+                "WS0008": "cmc_oip"
             }
         }
     ],

@@ -1,0 +1,2 @@
+name,id,tags,rarity,base price,stack size,cargo space,icon,sound id,sound id drop,plugin,plugin params,desc,order
+CMC Blueprint Package,cmc_package,package_bp,,25000,1000,1,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,cmc_bp,"Enables heavy industry to construct the more common ship hulls, weapons, and fighter LPCs from the ""Celestial Mount Circle"" school of design.",210.1
