@@ -1,6 +1,7 @@
 v1.1
 -Added BaXia-class Heavy Cruiser
 -Fixed Tianchi-class can't produced.
+-Nex Compatible.
 
 v1.0.1:
 -Fix empty sprite blueprint package.

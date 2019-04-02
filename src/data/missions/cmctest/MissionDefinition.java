@@ -27,14 +27,17 @@ public class MissionDefinition implements MissionDefinitionPlugin {
         List<String> cruiserships = new ArrayList<>();
         List<String> destoryerships = new ArrayList<>();
         List<String> frigateships = new ArrayList<>();
+        //To show All CMC ships
         for (String variantID : Global.getSettings().getAllVariantIds()) {
             if (variantID.endsWith("_wing")) {
                 continue;
             }
+            //show all ship which id prefix is "cmc"
             if (!variantID.startsWith("cmc")) {
                 continue;
             }
             FleetMemberAPI member = Global.getFactory().createFleetMember(FleetMemberType.SHIP, variantID);
+            //such variant id means it's an empty variant
             String id = member.getHullId() + "_Hull";
             if (ids.contains(id)) {
                 continue;
@@ -58,6 +61,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
             }
         }
         boolean isFlagShipset = false;
+
+        //Add them...well, copy them without any thinking is okay
         for (String id : capitalships) {
             if (!isFlagShipset) {
                 api.addToFleet(FleetSide.PLAYER, id, FleetMemberType.SHIP, true);

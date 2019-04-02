@@ -1,240 +1,231 @@
 {
-	"id":"cmc",
-	"color":[110,130,70,255],
-	
-	#"baseUIColor":[75,200,0,255],
-	#"darkUIColor":[32,85,0,175],
-	#"gridUIColor":[95,255,0,75],
-
-	"displayName":"Celestial Mount Circle",
-	"displayNameWithArticle":"the Celestial Mount Circle",
-	"displayNameLong":"Celestial Mount Circle",
-	"displayNameLongWithArticle":"the Celestial Mount Circle",
-	"logo":"graphics/cmc/factions/cmc.png",
-	"crest":"graphics/cmc/factions/crest_cmc.png",
-	"shipNamePrefix":"CMC",
-	"shipNameSources":{
-		"LUDDIC_CHURCH":1,
-		"ABRAHAMIC":1,
-	},
-	"names":{
-		"fringe":1,
-		"modern":1,
-		"world":1,
-		"future":1,
-		"luddic":2,
-	},
-	# variantOverrides restricts hulls to listed variants and adjusts their probability
-	"variantOverrides":{
-	},
-	# multiplier for how often hulls show up in the faction's fleets
-	"hullFrequency":{
-		"tags":{
-		    "cmc_bp":10,
-		},
-		"hulls":{
-		},
-	},
-	# ships the faction gets access to when importing S&W out-of-faction
-	"shipsWhenImporting":{
-		"tags":["base_bp", "lowtech_bp"],
-		"hulls":[
-		],
-	},
-	"knownShips":{
-		"tags":["base_bp", "lowtech_bp", "luddic_church","cmc_bp"],
-		"hulls":[
-			"atlas",
-			"prometheus",
-			"legion",
-		],
-	},
-	# listing ships here will make the faction mostly use them even if other hulls become available
-	"priorityShips":{
-		"tags":["cmc_bp"],
-		"hulls":[
-			"mora",
-		],
-	},
-	"knownFighters":{
-		"tags":["base_bp", "luddic_church"],
-		"fighters":[
-			"broadsword_wing",
-			"warthog_wing",
-			"perdition_wing",
-			"talon_wing",
-		],
-	},
-	"priorityFighters":{
-		"tags":[],
-		"fighters":[
-			"broadsword_wing",
-			"warthog_wing",
-			"perdition_wing",
-			"talon_wing",
-		],
-	},
-	"knownWeapons":{
-		"tags":["base_bp", "cmc_bp", "midline_bp", "missile_bp", "hightech_bp", "luddic_church"],
-		"weapons":[
-		    "cmc_clarity_hellbore",
-			"heavymauler",
-			"sabotpod",
-			"phasecl",
-			"cyclone",
-			"hurricane",
-			"squall",
-			"locust",
-			"amblaster",
-		],
-	},
-	"priorityWeapons":{
-		"tags":["cmc_bp"],
-		"weapons":[
-		],
-	},
-	"knownHullMods":{
-		"tags":["base_bp", "luddic_church"],
-		"hullMods":[
-			"advancedshieldemitter", # accelerated
-			"turretgyros",
-			"armoredweapons",
-			"augmentedengines",
-			"converted_hangar",
-			"expanded_deck_crew",
-			"magazines",
-			"missleracks",
-			"extendedshieldemitter",
-			"frontemitter",
-			"frontshield",  # makeshift
-			"heavyarmor",
-			"insulatedengine",
-			"nav_relay",
-			"operations_center",
-			"recovery_shuttles",
-			"fluxbreakers",
-			"surveying_equipment",
-			"efficiency_overhaul",
-		],
-	},
-	"factionDoctrine":{
-		"warships":4,
-		"carriers":2,
-		"phaseShips":1,
-		
-		"officerQuality":2,
-		"shipQuality":1,
-		"numShips":4,
-		
-		"shipSize":3,
-		
-		"aggression":3,
-		
-		"combatFreighterProbability":0.25,     				# instead of some portion of the freighters in a fleet
-		"combatFreighterCombatUseFraction":0.5,				# as part of the normal combat lineup
-		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0.25,
-
-		"commanderSkillsShuffleProbability":0,
-		"commanderSkills":[
-			"fighter_doctrine",
-			"officer_management",
-			"coordinated_maneuvers",
-			"electronic_warfare",
-		],
-	},
-	"illegalCommodities":[
-		"drugs",
-		"organs",
-		"luxury_goods",
-		"ai_cores",
-	],
-	"music":{
-		"theme":"music_luddite_market_neutral",
-		"market_neutral":"music_luddite_market_neutral",
-		"market_hostile":"music_luddite_market_hostile",
-		"market_friendly":"music_luddite_market_friendly",
-		"encounter_neutral":"music_luddite_encounter_neutral",
-		"encounter_hostile":"music_luddite_encounter_hostile",
-		"encounter_friendly":"music_luddite_encounter_friendly",
-	},
-	"portraits":{
-		"standard_male":[
-			"graphics/portraits/portrait_mercenary01.png",
-			"graphics/portraits/portrait_mercenary03.png",
-			"graphics/portraits/portrait12.png",
-			"graphics/portraits/portrait15.png",
-			"graphics/portraits/portrait17.png",
-			"graphics/portraits/portrait18.png",
-			"graphics/portraits/portrait20.png",
-			"graphics/portraits/portrait_luddic00.png",
-			"graphics/portraits/portrait_luddic02.png",
-			"graphics/portraits/portrait_luddic04.png",
-			"graphics/portraits/portrait_luddic05.png",
-			"graphics/portraits/portrait_luddic06.png",
-			"graphics/portraits/portrait36.png",
-		],
-		"standard_female":[
-			"graphics/portraits/portrait_mercenary02.png",
-			"graphics/portraits/portrait14.png",
-			"graphics/portraits/portrait16.png",
-			"graphics/portraits/portrait21.png",
-			"graphics/portraits/portrait22.png",
-			"graphics/portraits/portrait27.png",
-			"graphics/portraits/portrait28.png",
-			"graphics/portraits/portrait29.png",
-			"graphics/portraits/portrait_luddic01.png",
-			"graphics/portraits/portrait_luddic03.png",
-			"graphics/portraits/portrait_luddic07.png",
-		],
-	},
-	"ranks":{
-		"ranks":{
-			"spaceCommander":{"name":"Deacon-Captain"},
-		},
-		"posts":{
-			"patrolCommander":{"name":"Deacon-Captain"},
-			"fleetCommander":{"name":"Priest-Commander"},
-			"baseCommander":{"name":"Bishop-Governor"},
-			"administrator":{"name":"Sub-presbyter Orbis"},
-		},
-	},
-	"custom":{
-		"offersCommissions":true,
-		"engagesInHostilities":true,
-		"buysAICores":true,
-		"AICoreValueMult":0.1,
-		"AICoreRepMult":3,
-		"buysSurveyData":true,
-		"hostilityImpactOnGrowth":true,
-		"caresAboutAtrocities":true,
-		"punitiveExpeditionData":{
-			"vsCompetitors":true,
-			"vsFreePort":true,
-			"canBombard":false,
-			"territorial":true,
-		},
-	},
-	"fleetTypeNames":{
-		"trade":"Faithful Convoy",
-		"smallTrader":"Faithful Trader",
-		"tradeLiner":"Pilgrimage",
-		
-		"patrolSmall":"Watchers",
-		"patrolMedium":"Righteous Flotilla",
-		"patrolLarge":"Holy Armada",
-		
-		"inspectionFleet":"Hallowed Arbiter",
-		
-		#"mercScout":"Seeker",
-		#"mercBountyHunter":"Judgment-bringer",
-		#"mercPrivateer":"Abjudicator",
-		#"mercPatrol":"Crusading Fleet",
-		#"mercArmada":"Crusading Armada",
-		
-		"taskForce":"Blessed Mission",
-	},
-	
-	
+  "id": "cmc",
+  "color": [110, 130, 70, 255],
+  #"baseUIColor": [75, 200, 0, 255],
+  #"darkUIColor": [32, 85, 0, 175],
+  #"gridUIColor": [95, 255, 0, 75],
+  "displayName": "Celestial Mount Circle",
+  "displayNameWithArticle": "the Celestial Mount Circle",
+  "displayNameLong": "Celestial Mount Circle",
+  "displayNameLongWithArticle": "the Celestial Mount Circle",
+  "logo": "graphics/cmc/factions/cmc.png",
+  "crest": "graphics/cmc/factions/crest_cmc.png",
+  "shipNamePrefix": "CMC",
+  "shipNameSources": {
+    "LUDDIC_CHURCH": 1,
+    "ABRAHAMIC": 1,
+  },
+  "names": {
+    "fringe": 1,
+    "modern": 1,
+    "world": 1,
+    "future": 1,
+    "luddic": 2,
+  },
+  # variantOverrides restricts hulls to listed variants and adjusts their probability
+  "variantOverrides": {
+  },
+  # multiplier for how often hulls show up in the faction's fleets
+  "hullFrequency": {
+    "tags": {
+      "luddic_church": 0.25
+    },
+    "hulls": {
+    },
+  },
+  # ships the faction gets access to when importing S&W out-of-faction
+  "shipsWhenImporting": {
+    "tags": ["base_bp", "lowtech_bp"],
+    "hulls": [
+    ],
+  },
+  "knownShips": {
+    "tags": ["base_bp", "lowtech_bp", "luddic_church", "cmc_bp"],
+    "hulls": [
+      "atlas",
+      "prometheus",
+      "legion",
+      "cmc_kunlun",
+      "cmc_tianchi"
+    ],
+  },
+  # listing ships here will make the faction mostly use them even if other hulls become available
+  "priorityShips": {
+    "tags": ["cmc_bp"],
+    "hulls": [
+      "mora",
+      "cmc_kunlun",
+      "cmc_tianchi"
+    ],
+  },
+  "knownFighters": {
+    "tags": ["base_bp", "luddic_church"],
+    "fighters": [
+      "broadsword_wing",
+      "warthog_wing",
+      "perdition_wing",
+      "talon_wing",
+    ],
+  },
+  "priorityFighters": {
+    "tags": [],
+    "fighters": [
+      "broadsword_wing",
+      "warthog_wing",
+      "perdition_wing",
+      "talon_wing",
+    ],
+  },
+  "knownWeapons": {
+    "tags": ["base_bp", "cmc_bp", "midline_bp", "missile_bp", "hightech_bp", "luddic_church"],
+    "weapons": [
+      "cmc_clarity_hellbore",
+      "heavymauler",
+      "sabotpod",
+      "phasecl",
+      "cyclone",
+      "hurricane",
+      "squall",
+      "locust",
+      "amblaster",
+    ],
+  },
+  "priorityWeapons": {
+    "tags": ["cmc_bp"],
+    "weapons": [
+    ],
+  },
+  "knownHullMods": {
+    "tags": ["base_bp", "luddic_church"],
+    "hullMods": [
+      "advancedshieldemitter", # accelerated
+      "turretgyros",
+      "armoredweapons",
+      "augmentedengines",
+      "converted_hangar",
+      "expanded_deck_crew",
+      "magazines",
+      "missleracks",
+      "extendedshieldemitter",
+      "frontemitter",
+      "frontshield", # makeshift
+      "heavyarmor",
+      "insulatedengine",
+      "nav_relay",
+      "operations_center",
+      "recovery_shuttles",
+      "fluxbreakers",
+      "surveying_equipment",
+      "efficiency_overhaul",
+    ],
+  },
+  "factionDoctrine": {
+    "warships": 4,
+    "carriers": 2,
+    "phaseShips": 1,
+    "officerQuality": 2,
+    "shipQuality": 1,
+    "numShips": 4,
+    "shipSize": 3,
+    "aggression": 3,
+    "combatFreighterProbability": 0.25, # instead of some portion of the freighters in a fleet
+    "combatFreighterCombatUseFraction": 0.5, # as part of the normal combat lineup
+    "combatFreighterCombatUseFractionWhenPriority": 1, # as part of normal combat lineup, when marked as priority ship
+    "autofitRandomizeProbability": 0.25,
+    "commanderSkillsShuffleProbability": 0,
+    "commanderSkills": [
+      "fighter_doctrine",
+      "officer_management",
+      "coordinated_maneuvers",
+      "electronic_warfare",
+    ],
+  },
+  "illegalCommodities": [
+    "drugs",
+    "organs",
+    "luxury_goods",
+    "ai_cores",
+  ],
+  "music": {
+    "theme": "music_luddite_market_neutral",
+    "market_neutral": "music_luddite_market_neutral",
+    "market_hostile": "music_luddite_market_hostile",
+    "market_friendly": "music_luddite_market_friendly",
+    "encounter_neutral": "music_luddite_encounter_neutral",
+    "encounter_hostile": "music_luddite_encounter_hostile",
+    "encounter_friendly": "music_luddite_encounter_friendly",
+  },
+  "portraits": {
+    "standard_male": [
+      "graphics/portraits/portrait_mercenary01.png",
+      "graphics/portraits/portrait_mercenary03.png",
+      "graphics/portraits/portrait12.png",
+      "graphics/portraits/portrait15.png",
+      "graphics/portraits/portrait17.png",
+      "graphics/portraits/portrait18.png",
+      "graphics/portraits/portrait20.png",
+      "graphics/portraits/portrait_luddic00.png",
+      "graphics/portraits/portrait_luddic02.png",
+      "graphics/portraits/portrait_luddic04.png",
+      "graphics/portraits/portrait_luddic05.png",
+      "graphics/portraits/portrait_luddic06.png",
+      "graphics/portraits/portrait36.png",
+    ],
+    "standard_female": [
+      "graphics/portraits/portrait_mercenary02.png",
+      "graphics/portraits/portrait14.png",
+      "graphics/portraits/portrait16.png",
+      "graphics/portraits/portrait21.png",
+      "graphics/portraits/portrait22.png",
+      "graphics/portraits/portrait27.png",
+      "graphics/portraits/portrait28.png",
+      "graphics/portraits/portrait29.png",
+      "graphics/portraits/portrait_luddic01.png",
+      "graphics/portraits/portrait_luddic03.png",
+      "graphics/portraits/portrait_luddic07.png",
+    ],
+  },
+  "ranks": {
+    "ranks": {
+      "spaceCommander": {"name": "Deacon-Captain"},
+    },
+    "posts": {
+      "patrolCommander": {"name": "Deacon-Captain"},
+      "fleetCommander": {"name": "Priest-Commander"},
+      "baseCommander": {"name": "Bishop-Governor"},
+      "administrator": {"name": "Sub-presbyter Orbis"},
+    },
+  },
+  "custom": {
+    "offersCommissions": true,
+    "engagesInHostilities": true,
+    "buysAICores": true,
+    "AICoreValueMult": 0.1,
+    "AICoreRepMult": 3,
+    "buysSurveyData": true,
+    "hostilityImpactOnGrowth": true,
+    "caresAboutAtrocities": true,
+    "punitiveExpeditionData": {
+      "vsCompetitors": true,
+      "vsFreePort": true,
+      "canBombard": false,
+      "territorial": true,
+    },
+  },
+  "fleetTypeNames": {
+    "trade": "Faithful Convoy",
+    "smallTrader": "Faithful Trader",
+    "tradeLiner": "Pilgrimage",
+    "patrolSmall": "Watchers",
+    "patrolMedium": "Righteous Flotilla",
+    "patrolLarge": "Holy Armada",
+    "inspectionFleet": "Hallowed Arbiter",
+    #"mercScout": "Seeker",
+    #"mercBountyHunter": "Judgment-bringer",
+    #"mercPrivateer": "Abjudicator",
+    #"mercPatrol": "Crusading Fleet",
+    #"mercArmada": "Crusading Armada",
+    "taskForce": "Blessed Mission",
+  },
 },
 

@@ -138,6 +138,7 @@ public class CMC_PeachGarden {
     }
 
     //Learning from Tart scripts
+    //Clean nearby Nebula
     private void cleanup(StarSystemAPI system) {
         HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin();
         NebulaEditor editor = new NebulaEditor(plugin);

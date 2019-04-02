@@ -17,9 +17,11 @@ public class CMCWorldGen implements SectorGeneratorPlugin {
     @Override
     public void generate(SectorAPI sector) {
         FactionAPI cmc = sector.getFaction("cmc");
+        //Generate your system
         new CMC_PeachGarden().generate(sector);
-
+        //Add faction to bounty system
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("cmc");
+        //set relationship
         cmc.setRelationship(Factions.LUDDIC_CHURCH, 0.15f);
         cmc.setRelationship(Factions.LUDDIC_PATH, -0.5f);
         cmc.setRelationship(Factions.PERSEAN, 0.2f);

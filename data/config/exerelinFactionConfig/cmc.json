@@ -1,0 +1,42 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "rebelFleetSuffix":"QiYiJun",
+    
+    "directoryUseShortName":true,
+
+    "startRelationships":{ "tritachyon":-0.3 },
+    "maxRelationships":{ "tritachyon":0.5 },
+    "diplomacyPositiveChance":{ "tritachyon":0.75 },
+    "diplomacyNegativeChance":{ "tritachyon":1.5 },
+    "morality":"neutral",
+    
+    "alignments":{
+        "corporate":-0.5,
+        "technocratic":-0.5,
+        #"militarist":0.5,
+        "ideological":1,
+    },
+    
+    "vengeanceLevelNames":["MieShi", "XunChou", "ZhanCao"],
+    "vengeanceFleetNames":["ChuanJiaoShi", "SiShi", "ChuGen"],
+    
+    "startShipsSolo":[["cmc_basic_Standard"]],
+    "startShipsCombatSmall":[
+      ["cmc_doyinhammer_Standard", "cmc_basic_Standard", "cmc_basic_Standard"]
+    ],
+    "startShipsCombatLarge":[
+      ["cmc_baxia_Standard", "cmc_manman_Standard", "cmc_basic_Standard"]
+    ],
+    "startShipsCarrierSmall":[["cmc_fairyark_Standard", "cmc_basic_Standard"]],
+    
+    "startSpecialItems":[
+        [["cmc_package", ""]],
+        [["low_tech_package", ""]],
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+    ],
+}
