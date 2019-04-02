@@ -10,5 +10,6 @@
     <orderEntry type="library" name="GraphicsLib" level="project" />
     <orderEntry type="library" name="starsector-core" level="project" />
     <orderEntry type="library" name="LazyLib" level="project" />
+    <orderEntry type="library" name="ExerelinCore" level="application" />
   </component>
 </module>

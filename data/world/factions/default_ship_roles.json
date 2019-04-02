@@ -10,9 +10,11 @@
   },
   "combatLarge": {
     "cmc_fairyeagle_Standard": 10,
+    "cmc_baxia_Standard": 10,
   },
   "combatCapital": {
     "cmc_kunlun_Standard": 1,
+    "cmc_tianchi_Standard": 1,
   },
   "combatFreighterSmall": {
   },

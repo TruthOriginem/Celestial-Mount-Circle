@@ -2,4 +2,9 @@
     "designTypeColors":{
             "Celestial Mount Circle":[110,130,70,255],
     },
+  "graphics":{
+    "blueprint_packages":{
+      "cmc_package":"graphics/cmc/icons/cargo/cmc_package.png",
+    },
+  }
 }
