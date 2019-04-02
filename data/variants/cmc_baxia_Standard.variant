@@ -1,0 +1,58 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "hullId": "cmc_baxia",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "cmc_baxia_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "cmc_clarity_aphrodite",
+                "WS0016": "cmc_clarity_aphrodite"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lightac",
+                "WS0008": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightmortar",
+                "WS0002": "lightmortar",
+                "WS0003": "lightmortar",
+                "WS0004": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "vulcan",
+                "WS0010": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "cmc_oip",
+                "WS0006": "cmc_oip",
+                "WS0011": "cmc_oip",
+                "WS0012": "cmc_oip",
+                "WS0013": "lightmg",
+                "WS0014": "lightmg"
+            }
+        }
+    ],
+    "wings": []
+}
