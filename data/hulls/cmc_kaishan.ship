@@ -1,0 +1,174 @@
+{
+  "bounds": [
+    97,
+    14.5,
+    72,
+    4,
+    73,
+    -50,
+    13.5,
+    -51,
+    -9.5,
+    -31.5,
+    -6.5,
+    -14,
+    -35.5,
+    -14,
+    -39.5,
+    -25.5,
+    -77.5,
+    -30,
+    -97,
+    -0,
+    -80.5,
+    30,
+    -40.5,
+    27.5,
+    -35,
+    13,
+    -20.5,
+    13,
+    -28.5,
+    28,
+    -17,
+    38,
+    0.5,
+    38,
+    15,
+    52,
+    27,
+    52,
+    32.5,
+    44.5,
+    60,
+    44.5,
+    69.5,
+    38,
+    58.5,
+    18.5
+  ],
+  "builtInMods": [
+    "cmc_homeforspirits_system",
+    "cmc_hpshieldgen"
+  ],
+  "builtInWings": [
+    "cmc_spiritforce_two_wing"
+  ],
+  "center": [
+    60,
+    100
+  ],
+  "collisionRadius": 131.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 26,
+      "location": [
+        -88.5,
+        21
+      ],
+      "style": "CMC",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 26,
+      "location": [
+        -88.5,
+        -21
+      ],
+      "style": "CMC",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 17,
+      "length": 32.5,
+      "location": [
+        -97,
+        -0
+      ],
+      "style": "CMC",
+      "width": 17
+    }
+  ],
+  "height": 200,
+  "hullId": "cmc_kaishan",
+  "hullName": "cmc_kaishan",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 128.5,
+  "spriteName": "graphics/cmc/ships/cmc_kaishan.png",
+  "style": "CMC",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 150,
+      "id": "WS0001",
+      "locations": [
+        21,
+        39
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        73,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 135,
+      "arc": 10,
+      "id": "WS0003",
+      "locations": [
+        -23,
+        34
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0004",
+      "locations": [
+        58,
+        -25
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        51.5,
+        30.5,
+        38,
+        23.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 120
+}

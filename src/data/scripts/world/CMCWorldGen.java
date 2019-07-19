@@ -14,20 +14,6 @@ import data.scripts.world.systems.CMC_PeachGarden;
 import java.util.ArrayList;
 
 public class CMCWorldGen implements SectorGeneratorPlugin {
-    @Override
-    public void generate(SectorAPI sector) {
-        FactionAPI cmc = sector.getFaction("cmc");
-        //Generate your system
-        new CMC_PeachGarden().generate(sector);
-        //Add faction to bounty system
-        SharedData.getData().getPersonBountyEventData().addParticipatingFaction("cmc");
-        //set relationship
-        cmc.setRelationship(Factions.LUDDIC_CHURCH, 0.15f);
-        cmc.setRelationship(Factions.LUDDIC_PATH, -0.5f);
-        cmc.setRelationship(Factions.PERSEAN, 0.2f);
-        cmc.setRelationship(Factions.PIRATES, -0.75f);
-    }
-
     //Shorthand function for adding a market
     public static MarketAPI addMarketplace(String factionID, SectorEntityToken primaryEntity, ArrayList<SectorEntityToken> connectedEntities, String name,
                                            int size, ArrayList<String> marketConditions, ArrayList<String> submarkets, ArrayList<String> industries, float tarrif,
@@ -81,5 +67,19 @@ public class CMCWorldGen implements SectorGeneratorPlugin {
 
         //Finally, return the newly-generated market
         return newMarket;
+    }
+
+    @Override
+    public void generate(SectorAPI sector) {
+        FactionAPI cmc = sector.getFaction("cmc");
+        //Generate your system
+        new CMC_PeachGarden().generate(sector);
+        //Add faction to bounty system
+        SharedData.getData().getPersonBountyEventData().addParticipatingFaction("cmc");
+        //set relationship
+        cmc.setRelationship(Factions.LUDDIC_CHURCH, 0.15f);
+        cmc.setRelationship(Factions.LUDDIC_PATH, -0.5f);
+        cmc.setRelationship(Factions.PERSEAN, 0.2f);
+        cmc.setRelationship(Factions.PIRATES, -0.75f);
     }
 }

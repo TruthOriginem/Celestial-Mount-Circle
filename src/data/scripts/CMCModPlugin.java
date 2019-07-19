@@ -20,7 +20,7 @@ public class CMCModPlugin extends BaseModPlugin {
     public void onNewGame() {
         //Nex compatibility setting, if there is no nex or corvus mode(Nex), just generate the system
         boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
-        if (!haveNexerelin || SectorManager.getCorvusMode()){
+        if (!haveNexerelin || SectorManager.getCorvusMode()) {
             new CMCWorldGen().generate(Global.getSector());
         }
     }

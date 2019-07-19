@@ -2,9 +2,9 @@
 	"id":"Celestial Mount Circle",
 	"name":"Celestial Mount Circle",
 	"author":"Originem",
-	"version":"1.1",
+	"version":"1.2",
 	"description":"*Requires LazyLib \nA religious group which believe in nature.",
-	"gameVersion":"0.9a",
+	"gameVersion":"0.9.1a",
 	"jars":["jars/CMC.jar"],
 	"modPlugin":"data.scripts.CMCModPlugin"
 }

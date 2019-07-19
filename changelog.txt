@@ -1,3 +1,8 @@
+v1.2
+-Added Helan-class Super Battle Cruiser
+-Added Kaishan-class Destroyer
+-Fixed wrong descriptions of planets.
+
 v1.1
 -Added BaXia-class Heavy Cruiser
 -Fixed Tianchi-class can't produced.

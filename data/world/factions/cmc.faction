@@ -46,7 +46,8 @@
       "prometheus",
       "legion",
       "cmc_kunlun",
-      "cmc_tianchi"
+      "cmc_tianchi",
+      "cmc_helan"
     ],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
@@ -55,7 +56,8 @@
     "hulls": [
       "mora",
       "cmc_kunlun",
-      "cmc_tianchi"
+      "cmc_tianchi",
+      "cmc_helan"
     ],
   },
   "knownFighters": {

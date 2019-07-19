@@ -3,7 +3,6 @@ package data.scripts.weapons;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import com.fs.starfarer.api.impl.campaign.fleets.FleetFactoryV3;
 import com.fs.starfarer.api.loading.MuzzleFlashSpec;
 import org.lazywizard.lazylib.MathUtils;
 
