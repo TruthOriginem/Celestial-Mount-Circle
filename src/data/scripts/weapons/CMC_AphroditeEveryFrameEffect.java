@@ -11,6 +11,7 @@ public class CMC_AphroditeEveryFrameEffect implements EveryFrameWeaponEffectPlug
     private static final float CHARGE_UP_NEED_TIME = 2f;
     private static final float CHARGE_DOWN_NEED_TIME = 1.5f;
 
+    //EveryFrameWeaponEffectPlugin would be generated for each weapon that implement it, so the local variable could be used correctly
     private float increaseFactor = 0;
     private boolean init = false;
     private MuzzleFlashSpec originMuzzleFlash;
@@ -22,7 +23,9 @@ public class CMC_AphroditeEveryFrameEffect implements EveryFrameWeaponEffectPlug
         }
         if (!init) {
             init = true;
+            //record the muzzle flash spec
             originMuzzleFlash = weapon.getMuzzleFlashSpec().clone();
+            //make sure weapon has its own spec(weapon spec is shared with each weapon if you don't ensure it is cloned)
             weapon.ensureClonedSpec();
         }
         float coolDownRemain = weapon.getCooldownRemaining();

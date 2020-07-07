@@ -44,7 +44,7 @@ public class CMC_PeachGarden {
                 , yuanming.getName(), 6,
                 new ArrayList<>(
                         Arrays.asList(
-                                Conditions.POPULATION_7,
+                                Conditions.POPULATION_7, // population
                                 Conditions.HABITABLE,
                                 Conditions.FARMLAND_BOUNTIFUL,
                                 Conditions.MILD_CLIMATE,
@@ -144,7 +144,7 @@ public class CMC_PeachGarden {
     }
 
     //Learning from Tart scripts
-    //Clean nearby Nebula
+    //Clean nearby Nebula(nearby system)
     private void cleanup(StarSystemAPI system) {
         HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin();
         NebulaEditor editor = new NebulaEditor(plugin);

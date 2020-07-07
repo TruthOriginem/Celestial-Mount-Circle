@@ -1,10 +1,12 @@
 {
     "designTypeColors":{
             "Celestial Mount Circle":[110,130,70,255],
+            "Peach Garden Guardian":[125,155,60,255],
     },
   "graphics":{
     "blueprint_packages":{
       "cmc_package":"graphics/cmc/icons/cargo/cmc_package.png",
+      "cmc_guardian_package":"graphics/cmc/icons/cargo/cmc_guardian_package.png",
     },
   }
 }

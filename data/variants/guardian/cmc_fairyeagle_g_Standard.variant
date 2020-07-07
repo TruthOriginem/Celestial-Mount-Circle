@@ -1,0 +1,49 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "cmc_fairyeagle_g",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "cmc_fairyeagle_g_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "sabot",
+                "WS0009": "sabot",
+                "WS0011": "sabot",
+                "WS0012": "sabot"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "reaper"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "cmc_clarity_hellbore"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "cmc_clarity_aphrodite"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "cmc_oip",
+                "WS0002": "cmc_oip",
+                "WS0003": "cmc_oip",
+                "WS0004": "cmc_oip",
+                "WS0005": "cmc_oip"
+            }
+        }
+    ],
+    "wings": []
+}

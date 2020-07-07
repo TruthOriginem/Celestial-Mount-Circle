@@ -1,0 +1,65 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 13,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "cmc_helan_g",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "cmc_helan_g_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "cmc_clarity_aphrodite",
+                "WS0016": "cmc_clarity_aphrodite",
+                "WS0017": "cmc_clarity_hellbore"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "sabot",
+                "WS0010": "sabot",
+                "WS0011": "sabot",
+                "WS0012": "sabot"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "heatseeker",
+                "WS0014": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "devastator",
+                "WS0019": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "cmc_oip",
+                "WS0002": "cmc_oip",
+                "WS0003": "cmc_oip",
+                "WS0004": "cmc_oip",
+                "WS0005": "cmc_oip",
+                "WS0006": "cmc_oip",
+                "WS0007": "cmc_oip",
+                "WS0008": "cmc_oip"
+            }
+        }
+    ],
+    "wings": []
+}

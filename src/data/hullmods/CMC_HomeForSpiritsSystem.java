@@ -29,6 +29,7 @@ public class CMC_HomeForSpiritsSystem extends BaseHullMod {
         if (!ship.hasLaunchBays()) return;
         if (ship.getAllWings().isEmpty()) return;
         float affectResult = 0f;
+        //get all wings
         for (FighterWingAPI wing : ship.getAllWings()) {
             if (!wing.getWingId().startsWith("cmc_spiritforce")) continue;
             int alive = 0;
@@ -46,6 +47,7 @@ public class CMC_HomeForSpiritsSystem extends BaseHullMod {
             affectResult += lost;
         }
         float reductionPercent = affectResult * SIZE_REDUCTION_MAP.get(ship.getHullSize());
+        //Float is not always correct, sometimes <=1e-6 means ==0
         if (reductionPercent <= 1e-6) return;
         MutableShipStatsAPI stats = ship.getMutableStats();
         stats.getFluxDissipation().modifyPercent(ID, -reductionPercent);

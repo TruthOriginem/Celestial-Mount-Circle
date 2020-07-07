@@ -1,0 +1,12 @@
+{
+	"baseHullId":"cmc_doyinhammer",
+	"skinHullId":"cmc_doyinhammer_g",
+	"hullName":"Douyin (G)",
+	"descriptionId":"cmc_basic",
+	"descriptionPrefix":"The most elite ships which could protect CMC's world ",
+	"tags":["cmc_g_bp"],
+	"tech":"Peach Garden Guardian",
+	"baseValueMult":1.25,
+	"spriteName":"graphics/cmc/ships/cmc_doyinhammer_g.png",
+	"builtInMods":["cmc_guardian"],
+}

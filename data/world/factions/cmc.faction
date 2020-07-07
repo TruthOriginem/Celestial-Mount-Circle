@@ -28,7 +28,8 @@
   # multiplier for how often hulls show up in the faction's fleets
   "hullFrequency": {
     "tags": {
-      "luddic_church": 0.25
+      "luddic_church": 0.25,
+      "cmc_g_bp": 0.25
     },
     "hulls": {
     },
@@ -40,7 +41,7 @@
     ],
   },
   "knownShips": {
-    "tags": ["base_bp", "lowtech_bp", "luddic_church", "cmc_bp"],
+    "tags": ["base_bp", "lowtech_bp", "luddic_church", "cmc_bp","cmc_g_bp"],
     "hulls": [
       "atlas",
       "prometheus",
@@ -52,7 +53,7 @@
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
   "priorityShips": {
-    "tags": ["cmc_bp"],
+    "tags": ["cmc_bp","cmc_g_bp"],
     "hulls": [
       "mora",
       "cmc_kunlun",

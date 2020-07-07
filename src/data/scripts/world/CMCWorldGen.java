@@ -14,7 +14,7 @@ import data.scripts.world.systems.CMC_PeachGarden;
 import java.util.ArrayList;
 
 public class CMCWorldGen implements SectorGeneratorPlugin {
-    //Shorthand function for adding a market
+    //Shorthand function for adding a market, just copy it
     public static MarketAPI addMarketplace(String factionID, SectorEntityToken primaryEntity, ArrayList<SectorEntityToken> connectedEntities, String name,
                                            int size, ArrayList<String> marketConditions, ArrayList<String> submarkets, ArrayList<String> industries, float tarrif,
                                            boolean freePort, boolean withJunkAndChatter) {

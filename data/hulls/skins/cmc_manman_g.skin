@@ -1,0 +1,12 @@
+{
+	"baseHullId":"cmc_manman",
+	"skinHullId":"cmc_manman_g",
+	"hullName":"Manman (G)",
+	"descriptionId":"cmc_manman",
+	"descriptionPrefix":"The most elite ships which could protect CMC's world ",
+	"tags":["cmc_g_bp"],
+	"tech":"Peach Garden Guardian",
+	"baseValueMult":1.25,
+	"spriteName":"graphics/cmc/ships/cmc_manman_g.png",
+	"builtInMods":["cmc_guardian"],
+}

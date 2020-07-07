@@ -10,6 +10,7 @@ import static com.fs.starfarer.api.Global.getSettings;
 public class CMCModPlugin extends BaseModPlugin {
     @Override
     public void onApplicationLoad() throws Exception {
+        //check if lazylib exists
         boolean hasLazyLib = getSettings().getModManager().isModEnabled("lw_lazylib");
         if (!hasLazyLib) {
             throw new RuntimeException("Celestial Mount Circle requires LazyLib!");

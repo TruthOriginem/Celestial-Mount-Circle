@@ -1,0 +1,12 @@
+{
+	"baseHullId":"cmc_tianchi",
+	"skinHullId":"cmc_tianchi_g",
+	"hullName":"Tianchi (G)",
+	"descriptionId":"cmc_tianchi",
+	"descriptionPrefix":"The most elite ships which could protect CMC's world ",
+	"tags":["cmc_g_bp"],
+	"tech":"Peach Garden Guardian",
+	"baseValueMult":1.25,
+	"spriteName":"graphics/cmc/ships/cmc_tianchi_g.png",
+	"builtInMods":["cmc_guardian"],
+}

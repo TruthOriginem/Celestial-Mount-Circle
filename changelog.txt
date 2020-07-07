@@ -1,3 +1,7 @@
+v1.3
+-Added Peach Garden Guardians, like XIV, special skins.
+-Clarity-Aphrodite Gun
+
 v1.2
 -Added Helan-class Super Battle Cruiser
 -Added Kaishan-class Destroyer

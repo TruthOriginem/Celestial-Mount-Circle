@@ -1,23 +1,33 @@
 {
   "combatSmallForSmallFleet": {
     "cmc_basic_Standard": 10,
+    "cmc_basic_g_Standard": 10
   },
   "combatSmall": {
     "cmc_basic_Standard": 10,
+    "cmc_basic_g_Standard": 10
   },
   "combatMedium": {
     "cmc_doyinhammer_Standard": 10,
+    "cmc_doyinhammer_g_Standard": 10,
     "cmc_manman_Standard": 10,
+    "cmc_manman_g_Standard": 10,
     "cmc_kaishan_Standard": 10,
+    "cmc_kaishan_g_Standard": 10
   },
   "combatLarge": {
     "cmc_fairyeagle_Standard": 10,
+    "cmc_fairyeagle_g_Standard": 10,
     "cmc_baxia_Standard": 10,
+    "cmc_baxia_g_Standard": 10
   },
   "combatCapital": {
     "cmc_kunlun_Standard": 10,
+    "cmc_kunlun_g_Standard": 10,
     "cmc_tianchi_Standard": 10,
+    "cmc_tianchi_g_Standard": 10,
     "cmc_helan_Standard":5,
+    "cmc_helan_g_Standard":5
   },
   "combatFreighterSmall": {
   },
@@ -29,14 +39,19 @@
   },
   "carrierSmall": {
     "cmc_basic_Standard": 10,
+    "cmc_basic_g_Standard": 10
   },
   "carrierMedium": {
     "cmc_doyinhammer_Standard": 10,
+    "cmc_doyinhammer_g_Standard": 10,
     "cmc_fairyark_Standard": 10,
+    "cmc_fairyark_g_Standard": 10
   },
   "carrierLarge": {
     "cmc_fairyeagle_Standard": 10,
+    "cmc_fairyeagle_g_Standard": 10,
     "cmc_tianchi_Standard": 1,
+    "cmc_tianchi_g_Standard": 1
   },
   "phaseSmall": {
   },

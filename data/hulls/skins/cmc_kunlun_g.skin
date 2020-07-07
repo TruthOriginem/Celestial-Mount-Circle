@@ -1,0 +1,12 @@
+{
+	"baseHullId":"cmc_kunlun",
+	"skinHullId":"cmc_kunlun_g",
+	"hullName":"Kunlun (G)",
+	"descriptionId":"cmc_kunlun",
+	"descriptionPrefix":"The most elite ships which could protect CMC's world ",
+	"tags":["cmc_g_bp"],
+	"tech":"Peach Garden Guardian",
+	"baseValueMult":1.25,
+	"spriteName":"graphics/cmc/ships/cmc_kunlun_g.png",
+	"builtInMods":["cmc_guardian"],
+}
