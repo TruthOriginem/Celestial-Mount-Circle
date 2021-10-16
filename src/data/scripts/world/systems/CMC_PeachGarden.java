@@ -1,8 +1,11 @@
 package data.scripts.world.systems;
 
 import com.fs.starfarer.api.campaign.*;
+import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry;
+import com.fs.starfarer.api.impl.campaign.econ.impl.InstallableItemEffect;
+import com.fs.starfarer.api.impl.campaign.econ.impl.ItemEffectsRepo;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
@@ -74,11 +77,14 @@ public class CMC_PeachGarden {
                 true);
         //make a custom description which is specified in descriptions.csv
         yuanming.setCustomDescriptionId("cmc_planet_yuanming");
+        Industry yuanmingOrbitalWorks = yuanmingMarket.getIndustry(Industries.ORBITALWORKS);
         //give the orbital works a gamma core
-        yuanmingMarket.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.GAMMA_CORE);
-        //and give it a nanoforge
-        ((HeavyIndustry) yuanmingMarket.getIndustry(Industries.ORBITALWORKS))
-                        .setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
+        yuanmingOrbitalWorks.setAICoreId(Commodities.GAMMA_CORE);
+        // give it a nanoforge
+        yuanmingOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
+        // and apply its effects
+        InstallableItemEffect itemEffect = ItemEffectsRepo.ITEM_EFFECTS.get(Items.CORRUPTED_NANOFORGE);
+        itemEffect.apply(yuanmingOrbitalWorks);
 
         PlanetAPI mingyue = system.addPlanet("cmc_planet_mingyue", yuanming, I18nUtil.getStarSystemsString("planet_name_mingyue"), "barren", 90, 60, 1000f, 30);
 
@@ -110,8 +116,11 @@ public class CMC_PeachGarden {
                 true,
                 true);
         mingyue.setCustomDescriptionId("cmc_planet_mingyue");
-        ((HeavyIndustry) mingyueMarket.getIndustry(Industries.HEAVYINDUSTRY))
-                        .setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
+        Industry mingyegHeavyIndustry = mingyueMarket.getIndustry(Industries.HEAVYINDUSTRY);
+        // give it a corrupted nanoforge
+        mingyegHeavyIndustry.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
+        // and apply its effects
+        itemEffect.apply(mingyegHeavyIndustry);
 
         // generates hyperspace destinations for in-system jump points
         system.autogenerateHyperspaceJumpPoints(true, true);
