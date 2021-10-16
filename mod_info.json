@@ -4,7 +4,12 @@
 	"author":"Originem",
 	"version":"1.3",
 	"description":"*Requires LazyLib \nA religious group which believe in nature.",
-	"gameVersion":"0.9.1a",
+	"gameVersion":"0.95a-RC15",
 	"jars":["jars/CMC.jar"],
+    "dependencies": [
+        {"id": "shaderLib", "name": "GraphicsLib"},
+        {"id": "lw_lazylib", "name": "LazyLib"},
+        {"id": "MagicLib", "name": "MagicLib"},
+    ],
 	"modPlugin":"data.scripts.CMCModPlugin"
 }

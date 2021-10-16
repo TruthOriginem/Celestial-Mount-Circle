@@ -77,7 +77,8 @@ public class CMC_PeachGarden {
         //give the orbital works a gamma core
         yuanmingMarket.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.GAMMA_CORE);
         //and give it a nanoforge
-        ((HeavyIndustry) yuanmingMarket.getIndustry(Industries.ORBITALWORKS)).setNanoforge(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
+        ((HeavyIndustry) yuanmingMarket.getIndustry(Industries.ORBITALWORKS))
+                        .setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
 
         PlanetAPI mingyue = system.addPlanet("cmc_planet_mingyue", yuanming, I18nUtil.getStarSystemsString("planet_name_mingyue"), "barren", 90, 60, 1000f, 30);
 
@@ -109,7 +110,8 @@ public class CMC_PeachGarden {
                 true,
                 true);
         mingyue.setCustomDescriptionId("cmc_planet_mingyue");
-        ((HeavyIndustry) mingyueMarket.getIndustry(Industries.HEAVYINDUSTRY)).setNanoforge(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
+        ((HeavyIndustry) mingyueMarket.getIndustry(Industries.HEAVYINDUSTRY))
+                        .setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
 
         // generates hyperspace destinations for in-system jump points
         system.autogenerateHyperspaceJumpPoints(true, true);
