@@ -1,6 +1,8 @@
 package data.scripts.weapons;
 
 import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
+
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -13,7 +15,8 @@ public class CMC_OIPOnHit implements OnHitEffectPlugin {
     private static final float MIN_DISTANCE = 100f;
 
     @Override
-    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, CombatEngineAPI engine) {
+    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit,
+            ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         if (shieldHit) return;
         if (target.getHitpoints() <= 0) {
             engine.spawnExplosion(point, new Vector2f(), Color.white, 100f, 0.2f);
