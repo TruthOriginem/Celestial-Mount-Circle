@@ -12,6 +12,7 @@ public class CMC_Guardian extends BaseHullMod {
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
         //Percent 10f -> 10%
         stats.getHullBonus().modifyPercent(id, HITPOINTS_BONUS);
+        stats.getArmorBonus().modifyPercent(id, HITPOINTS_BONUS);
         stats.getSensorProfile().modifyPercent(id, -PROFILE_REDUCTION);
     }
 

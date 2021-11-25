@@ -8,13 +8,15 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import data.utils.cmc.HullModUtil;
 import data.utils.cmc.I18nUtil;
 
-import java.util.HashMap;
+import java.util.EnumMap;
 import java.util.Map;
 
 import static com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 public class CMC_HomeForSpiritsSystem extends BaseHullMod {
-    private static final Map<HullSize, Float> SIZE_REDUCTION_MAP = new HashMap<>();
+    // Could use Hashmap here...But we could also use EnumMap for better performance!
+    private static final Map<HullSize, Float> SIZE_REDUCTION_MAP = new EnumMap<>(HullSize.class);
+    private static final float REDUCTION_THRESHOLD = 30f;
     private static final String ID = "cmc_homeforspirits_system";
 
     static {
@@ -37,7 +39,7 @@ public class CMC_HomeForSpiritsSystem extends BaseHullMod {
                 if (fighter.isAlive()) {
                     alive++;
                 }
-                if (fighter.getHullLevel() <= 0.8f) {
+                if (fighter.getHullLevel() <= 0.8f && !wing.isReturning(fighter)) {
                     wing.orderReturn(fighter);
                 }
             }
@@ -46,7 +48,7 @@ public class CMC_HomeForSpiritsSystem extends BaseHullMod {
             //lost means fighter lost
             affectResult += lost;
         }
-        float reductionPercent = affectResult * SIZE_REDUCTION_MAP.get(ship.getHullSize());
+        float reductionPercent = Math.min(affectResult * SIZE_REDUCTION_MAP.get(ship.getHullSize()), REDUCTION_THRESHOLD);
         //Float is not always correct, sometimes <=1e-6 means ==0
         if (reductionPercent <= 1e-6) return;
         MutableShipStatsAPI stats = ship.getMutableStats();
@@ -57,15 +59,17 @@ public class CMC_HomeForSpiritsSystem extends BaseHullMod {
         stats.getTurnAcceleration().modifyPercent(ID, -reductionPercent);
         stats.getMaxSpeed().modifyPercent(ID, -reductionPercent);
 
+        // Shows the status thing if player's ship has this hullmod
         if (Global.getCombatEngine().getPlayerShip() == ship) {
             Global.getCombatEngine().maintainStatusForPlayerShip(ID, "graphics/icons/hullsys/drone_sensor.png", "HFS System",
-                    String.format(I18nUtil.getHullModString("hfsSystem"), reductionPercent + "%"), true);
+                                                                 String.format(I18nUtil.getHullModString("hfsSystem"), reductionPercent + "%"), true);
         }
     }
 
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) return HullModUtil.getHullSizePercentString(SIZE_REDUCTION_MAP);
+        if (index == 1) return (int) REDUCTION_THRESHOLD + "%";
         return null;
     }
 }
