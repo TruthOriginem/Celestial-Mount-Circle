@@ -13,7 +13,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "cmc_lepb"
+        "WS0001": "cmc_lepb",
+        "WS0002": "cmc_leic"
       }
     }
   ],

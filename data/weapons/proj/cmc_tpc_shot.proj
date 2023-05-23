@@ -4,12 +4,12 @@
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
-	"length":80.0,
-	"width":35,
-	"fadeTime":0.3,
-	"fringeColor":[200,255,0,255],
-	"coreColor":[255,255,255,200],
-	"textureType":"ROUGH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	"length":90.0,
+	"width":15,
+	"fadeTime":0.2,
+	"fringeColor":[150,220,255,255],
+	"coreColor":[200,255,150,200],
+	"textureType":"SMOOTH",  # now also used for "BALLISTIC_AS_BEAM", if specified
 	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
 	"textureScrollSpeed":-256,
 	"pixelsPerTexel":1.0,

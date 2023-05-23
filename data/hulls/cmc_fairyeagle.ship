@@ -1,54 +1,16 @@
 {
-  "bounds": [
-    -72.5,
-    -10,
-    -104.5,
-    -12,
-    -102.5,
-    -48,
-    -90,
-    -63.5,
-    -51.5,
-    -82,
-    -36.5,
-    -82,
-    -39.5,
-    -66,
-    18,
-    -67,
-    98.5,
-    -33,
-    98.5,
-    -19.5,
-    67.5,
-    -14,
-    89.5,
-    -8.5,
-    89.5,
-    8.5,
-    67.5,
-    14,
-    98.5,
-    19.5,
-    98.5,
-    33,
-    18,
-    67,
-    -39.5,
-    66,
-    -36.5,
-    82,
-    -51.5,
-    82,
-    -90,
-    63.5,
-    -102.5,
-    48,
-    -104.5,
-    12,
-    -72.5,
-    10
-  ],
+  "hullName": "cmc_fairyeagle",
+  "hullId": "cmc_fairyeagle",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/cmc/ships/cmc_fairyeagle.png",
+  "style": "CMC",
+  "height": 218,
+  "width": 168,
+  "center": [84, 106],
+  "collisionRadius": 163,
+  "shieldCenter": [3, 0],
+  "shieldRadius": 147,
+  "viewOffset": 0,
   "builtInMods": [
     "cmc_homeforspirits_system",
     "cmc_hpshieldgen"
@@ -57,308 +19,246 @@
     "cmc_spiritforce_wing",
     "cmc_spiritforce_two_wing"
   ],
-  "center": [
-    84,
-    106
-  ],
-  "collisionRadius": 163,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 25.5,
-      "location": [
-        -104,
-        41
-      ],
-      "style": "CMC",
-      "width": 8
-    },
-    {
-      "angle": -180,
-      "contrailSize": 8,
-      "length": 25.5,
-      "location": [
-        -104,
-        -41
-      ],
-      "style": "CMC",
-      "width": 8
-    },
-    {
-      "angle": 180,
-      "contrailSize": 9,
-      "length": 27,
-      "location": [
-        -106.5,
-        29.5
-      ],
-      "style": "CMC",
-      "width": 9
-    },
-    {
-      "angle": -180,
-      "contrailSize": 9,
-      "length": 27,
-      "location": [
-        -106.5,
-        -29.5
-      ],
-      "style": "CMC",
-      "width": 9
-    },
-    {
-      "angle": 180,
-      "contrailSize": 30,
-      "length": 30,
-      "location": [
-        -107,
-        19
-      ],
-      "style": "CMC",
-      "width": 10
-    },
-    {
-      "angle": -180,
-      "contrailSize": 30,
-      "length": 30,
-      "location": [
-        -107,
-        -19
-      ],
-      "style": "CMC",
-      "width": 10
-    },
-    {
-      "angle": 116.5,
-      "contrailSize": 128,
-      "length": 25.5,
-      "location": [
-        7,
-        66
-      ],
-      "style": "CMC",
-      "width": 8
-    },
-    {
-      "angle": -116.5,
-      "contrailSize": 128,
-      "length": 25.5,
-      "location": [
-        7,
-        -66
-      ],
-      "style": "CMC",
-      "width": 8
-    },
-    {
-      "angle": 160.5,
-      "contrailSize": 128,
-      "length": 25.5,
-      "location": [
-        -96,
-        62
-      ],
-      "style": "CMC",
-      "width": 8
-    },
-    {
-      "angle": -160.5,
-      "contrailSize": 128,
-      "length": 25.5,
-      "location": [
-        -96,
-        -62
-      ],
-      "style": "CMC",
-      "width": 8
-    }
-  ],
-  "height": 218,
-  "hullId": "cmc_fairyeagle",
-  "hullName": "cmc_fairyeagle",
-  "hullSize": "CRUISER",
-  "shieldCenter": [
-    3,
-    0
-  ],
-  "shieldRadius": 147,
-  "spriteName": "graphics/cmc/ships/cmc_fairyeagle.png",
-  "style": "CMC",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 142.5,
-      "arc": 136,
       "id": "WS0003",
-      "locations": [
-        -82,
-        30
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
-    },
-    {
-      "angle": -142.5,
+      "type": "BALLISTIC",
+      "mount": "TURRET",
       "arc": 136,
+      "angle": 142.5,
+      "locations": [-82, 30]
+    },
+    {
       "id": "WS0004",
-      "locations": [
-        -82,
-        -30
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": -142.5,
+      "locations": [-82, -30]
     },
     {
-      "angle": 0,
-      "arc": 80,
       "id": "WS0005",
-      "locations": [
-        49.5,
-        -0
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": 0,
+      "locations": [49.5, -0]
     },
     {
-      "angle": 56.5,
-      "arc": 141,
       "id": "WS0001",
-      "locations": [
-        33,
-        33
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
-    },
-    {
-      "angle": -56.5,
+      "type": "BALLISTIC",
+      "mount": "TURRET",
       "arc": 141,
-      "id": "WS0002",
-      "locations": [
-        33,
-        -33
-      ],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "BALLISTIC"
-    },
-    {
       "angle": 56.5,
-      "arc": 150,
-      "id": "WS0006",
-      "locations": [
-        -3,
-        38
-      ],
-      "mount": "TURRET",
-      "size": "LARGE",
-      "type": "BALLISTIC"
+      "locations": [33, 33]
     },
     {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 141,
       "angle": -56.5,
-      "arc": 150,
-      "id": "WS0007",
-      "locations": [
-        -3,
-        -38
-      ],
+      "locations": [33, -33]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
       "mount": "TURRET",
-      "size": "LARGE",
-      "type": "BALLISTIC"
+      "arc": 150,
+      "angle": 56.5,
+      "locations": [-3, 38]
     },
     {
-      "angle": 0,
-      "arc": 10,
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -56.5,
+      "locations": [-3, -38]
+    },
+    {
       "id": "WS0008",
-      "locations": [
-        100.5,
-        26
-      ],
-      "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "COMPOSITE"
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [100.5, 26]
     },
     {
-      "angle": -0,
-      "arc": 10,
       "id": "WS0009",
-      "locations": [
-        100.5,
-        -26
-      ],
-      "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "COMPOSITE"
-    },
-    {
-      "angle": 0,
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
       "arc": 10,
-      "id": "WS0010",
-      "locations": [
-        84.5,
-        -0
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "COMPOSITE"
-    },
-    {
-      "angle": 0,
-      "arc": 10,
-      "id": "WS0011",
-      "locations": [
-        -36,
-        73
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "COMPOSITE"
-    },
-    {
       "angle": -0,
-      "arc": 10,
-      "id": "WS0012",
-      "locations": [
-        -36,
-        -73
-      ],
-      "mount": "HARDPOINT",
+      "locations": [100.5, -26]
+    },
+    {
+      "id": "WS0010",
       "size": "SMALL",
-      "type": "COMPOSITE"
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [84.5, -0]
     },
     {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
       "angle": 0,
-      "arc": 360,
+      "locations": [-36, 73]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-36, -73]
+    },
+    {
       "id": "LB 1",
-      "locations": [
-        -35.5,
-        6,
-        -53.5,
-        6
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -35.5, 6,
+        -53.5, 6
+      ]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 2",
-      "locations": [
-        -35.5,
-        -5.5,
-        -54,
-        -5
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -35.5, -5.5,
+        -54, -5
+      ]
     }
   ],
-  "width": 168
+  "engineSlots": [
+    {
+      "location": [-104, 41],
+      "length": 25.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CMC"
+    },
+    {
+      "location": [-104, -41],
+      "length": 25.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CMC"
+    },
+    {
+      "location": [-106.5, 29.5],
+      "length": 27,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CMC"
+    },
+    {
+      "location": [-106.5, -29.5],
+      "length": 27,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CMC"
+    },
+    {
+      "location": [-107, 19],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CMC"
+    },
+    {
+      "location": [-107, -19],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CMC"
+    },
+    {
+      "location": [7, 66],
+      "length": 25.5,
+      "width": 8,
+      "angle": 116.5,
+      "contrailSize": 128,
+      "style": "CMC"
+    },
+    {
+      "location": [7, -66],
+      "length": 25.5,
+      "width": 8,
+      "angle": -116.5,
+      "contrailSize": 128,
+      "style": "CMC"
+    },
+    {
+      "location": [-96, 62],
+      "length": 25.5,
+      "width": 8,
+      "angle": 160.5,
+      "contrailSize": 128,
+      "style": "CMC"
+    },
+    {
+      "location": [-96, -62],
+      "length": 25.5,
+      "width": 8,
+      "angle": -160.5,
+      "contrailSize": 128,
+      "style": "CMC"
+    }
+  ],
+  "bounds": [
+    -72.5, -10,
+    -104.5, -12,
+    -102.5, -48,
+    -90, -63.5,
+    -51.5, -82,
+    -36.5, -82,
+    -39.5, -66,
+    18, -67,
+    98.5, -33,
+    98.5, -19.5,
+    67.5, -14,
+    89.5, -8.5,
+    89.5, 8.5,
+    67.5, 14,
+    98.5, 19.5,
+    98.5, 33,
+    18, 67,
+    -39.5, 66,
+    -36.5, 82,
+    -51.5, 82,
+    -90, 63.5,
+    -102.5, 48,
+    -104.5, 12,
+    -72.5, 10
+  ]
 }

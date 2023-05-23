@@ -1,23 +1,29 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 13,
+    "fluxCapacitors": 8,
     "fluxVents": 45,
     "goalVariant": true,
     "hullId": "cmc_helan",
     "hullMods": [
         "targetingunit",
-        "fluxbreakers"
+        "missleracks",
+        "hardenedshieldemitter"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "cmc_helan_Standard",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
+            "weapons": {"WS0017": "tachyonlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS0015": "cmc_clarity_aphrodite",
-                "WS0016": "cmc_clarity_aphrodite",
-                "WS0017": "cmc_clarity_hellbore"
+                "WS0015": "cmc_dragonfly_launcher",
+                "WS0016": "cmc_dragonfly_launcher"
             }
         },
         {
@@ -42,8 +48,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0018": "devastator",
-                "WS0019": "devastator"
+                "WS0018": "cmc_clarity_aphrodite",
+                "WS0019": "cmc_clarity_aphrodite"
             }
         },
         {

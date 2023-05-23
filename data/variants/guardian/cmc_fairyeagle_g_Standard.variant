@@ -1,47 +1,45 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 4,
-    "fluxVents": 30,
+    "fluxCapacitors": 9,
+    "fluxVents": 22,
     "goalVariant": true,
     "hullId": "cmc_fairyeagle_g",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "cmc_spiritalter"
+    ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "cmc_fairyeagle_g_Standard",
     "weaponGroups": [
         {
-            "autofire": false,
-            "mode": "ALTERNATING",
+            "autofire": true,
+            "mode": "LINKED",
             "weapons": {
-                "WS0008": "sabot",
-                "WS0009": "sabot",
-                "WS0011": "sabot",
-                "WS0012": "sabot"
+                "WS0006": "gauss",
+                "WS0007": "gauss"
             }
         },
         {
             "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0010": "reaper"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0006": "cmc_clarity_hellbore"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0007": "cmc_clarity_aphrodite"}
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "heatseeker",
+                "WS0009": "heatseeker",
+                "WS0010": "heatseeker",
+                "WS0011": "heatseeker",
+                "WS0012": "heatseeker"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "cmc_oip",
-                "WS0002": "cmc_oip",
-                "WS0003": "cmc_oip",
-                "WS0004": "cmc_oip",
-                "WS0005": "cmc_oip"
+                "WS0001": "mininglaser",
+                "WS0002": "mininglaser",
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser",
+                "WS0005": "mininglaser"
             }
         }
     ],

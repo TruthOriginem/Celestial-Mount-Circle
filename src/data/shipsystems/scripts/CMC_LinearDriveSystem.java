@@ -5,7 +5,8 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
-import data.utils.cmc.I18nUtil;
+
+import static data.utils.cmc.Constants.i18n_shipSystem;
 
 public class CMC_LinearDriveSystem extends BaseShipSystemScript {
 
@@ -26,35 +27,9 @@ public class CMC_LinearDriveSystem extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData(I18nUtil.getShipSystemString("linearDriveData0"), false);
+            return new StatusData(i18n_shipSystem.get("linearDriveData0"), false);
         }
         return null;
-    }
-
-
-    public float getActiveOverride(ShipAPI ship) {
-//		if (ship.getHullSize() == HullSize.FRIGATE) {
-//			return 1.25f;
-//		}
-//		if (ship.getHullSize() == HullSize.DESTROYER) {
-//			return 0.75f;
-//		}
-//		if (ship.getHullSize() == HullSize.CRUISER) {
-//			return 0.5f;
-//		}
-        return -1;
-    }
-
-    public float getInOverride(ShipAPI ship) {
-        return -1;
-    }
-
-    public float getOutOverride(ShipAPI ship) {
-        return -1;
-    }
-
-    public float getRegenOverride(ShipAPI ship) {
-        return -1;
     }
 
     public int getUsesOverride(ShipAPI ship) {

@@ -1,15 +1,13 @@
 {
-	"id":"Celestial Mount Circle",
-	"name":"Celestial Mount Circle",
-	"author":"Originem",
-	"version":"1.4",
-	"description":"A religious group which believe in nature.",
-	"gameVersion":"0.95a-RC15",
-	"jars":["jars/CMC.jar"],
-    "dependencies": [
-        {"id": "shaderLib", "name": "GraphicsLib"},
-        {"id": "lw_lazylib", "name": "LazyLib"},
-        {"id": "MagicLib", "name": "MagicLib"},
-    ],
-	"modPlugin":"data.scripts.CMCModPlugin"
+  "id": "Celestial Mount Circle",
+  "name": "Celestial Mount Circle",
+  "author": "Originem",
+  "version": {"major": 1, "minor": 5, "patch": 0},
+  "description": "A religious group which believe in nature.",
+  "gameVersion": "0.96a-RC10",
+  "jars": ["jars/CMC.jar"],
+  "dependencies": [
+    {"id": "lw_lazylib", "name": "LazyLib"},
+  ],
+  "modPlugin": "data.scripts.CMCModPlugin"
 }

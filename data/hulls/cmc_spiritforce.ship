@@ -1,98 +1,79 @@
 {
-  "bounds": [
-    -16,
-    -12.5,
-    1,
-    -13.5,
-    23,
-    -0,
-    1,
-    13.5,
-    -16,
-    12.5,
-    -24,
-    -0
-  ],
-  "builtInMods": [
-    "advancedcore"
-  ],
-  "builtInWings": [],
-  "center": [
-    16,
-    27
-  ],
-  "collisionRadius": 27,
-  "engineSlots": [
-    {
-      "angle": 170,
-      "contrailSize": 2.840261,
-      "length": 6.342967,
-      "location": [
-        -17,
-        9
-      ],
-      "style": "CMC",
-      "width": 2.840261
-    },
-    {
-      "angle": -170,
-      "contrailSize": 2.840261,
-      "length": 6.342967,
-      "location": [
-        -17,
-        -9
-      ],
-      "style": "CMC",
-      "width": 2.840261
-    },
-    {
-      "angle": 170,
-      "contrailSize": 4.405499,
-      "length": 10.54267,
-      "location": [
-        -20.5,
-        5
-      ],
-      "style": "CMC",
-      "width": 4.405499
-    },
-    {
-      "angle": -170,
-      "contrailSize": 4.405499,
-      "length": 10.54267,
-      "location": [
-        -20.5,
-        -5
-      ],
-      "style": "CMC",
-      "width": 4.405499
-    }
-  ],
-  "height": 54,
-  "hullId": "cmc_spiritforce",
   "hullName": "cmc_spiritforce",
+  "hullId": "cmc_spiritforce",
   "hullSize": "FIGHTER",
-  "shieldCenter": [
-    1,
-    -0
-  ],
-  "shieldRadius": 25.5,
   "spriteName": "graphics/cmc/ships/cmc_spiritforce.png",
   "style": "CMC",
+  "height": 54,
+  "width": 32,
+  "center": [16, 27],
+  "collisionRadius": 28.5,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 27.5,
   "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 0,
-      "arc": 12,
       "id": "WS0001",
-      "locations": [
-        2,
-        -0
-      ],
-      "mount": "HIDDEN",
       "size": "SMALL",
-      "type": "ENERGY"
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 12,
+      "angle": 0,
+      "locations": [2, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 12,
+      "angle": 0,
+      "locations": [2, -0]
     }
   ],
-  "width": 32
+  "engineSlots": [
+    {
+      "location": [-16, 9],
+      "length": 6.256143,
+      "width": 1.855453,
+      "angle": 170,
+      "contrailSize": 1.855453,
+      "style": "CMC"
+    },
+    {
+      "location": [-16, -9],
+      "length": 6.256143,
+      "width": 1.855453,
+      "angle": -170,
+      "contrailSize": 1.855453,
+      "style": "CMC"
+    },
+    {
+      "location": [-20, 5],
+      "length": 8.399406,
+      "width": 3.130476,
+      "angle": 170,
+      "contrailSize": 3.130476,
+      "style": "CMC"
+    },
+    {
+      "location": [-20, -5],
+      "length": 8.399406,
+      "width": 3.130476,
+      "angle": -170,
+      "contrailSize": 3.130476,
+      "style": "CMC"
+    }
+  ],
+  "bounds": [
+    -11, -13,
+    -3, -13,
+    21, -3,
+    2, -3,
+    2, 3,
+    21, 3,
+    -3, 13,
+    -11, 13,
+    -20, -0
+  ]
 }

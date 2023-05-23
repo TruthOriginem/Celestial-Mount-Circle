@@ -1,54 +1,16 @@
 {
-  "bounds": [
-    -46,
-    -6.5,
-    -77.5,
-    -9,
-    -80,
-    -42.5,
-    -73,
-    -47,
-    -54,
-    -40.5,
-    -36,
-    -51.5,
-    -20.5,
-    -51.5,
-    -6.5,
-    -34,
-    37,
-    -24,
-    40,
-    -49,
-    59,
-    -51,
-    70,
-    -38.5,
-    70,
-    38.5,
-    59,
-    51,
-    40,
-    49,
-    37,
-    24,
-    -6.5,
-    34,
-    -20.5,
-    51.5,
-    -36,
-    51.5,
-    -54,
-    40.5,
-    -73,
-    47,
-    -80,
-    42.5,
-    -77.5,
-    9,
-    -46,
-    6.5
-  ],
+  "hullName": "cmc_doyinhammer",
+  "hullId": "cmc_doyinhammer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/cmc/ships/cmc_doyinhammer.png",
+  "style": "CMC",
+  "height": 164,
+  "width": 108,
+  "center": [54, 82],
+  "collisionRadius": 124.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 115,
+  "viewOffset": 0,
   "builtInMods": [
     "cmc_homeforspirits_system",
     "cmc_hpshieldgen"
@@ -56,194 +18,165 @@
   "builtInWings": [
     "cmc_spiritforce_wing"
   ],
-  "center": [
-    54,
-    82
-  ],
-  "collisionRadius": 124.5,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 30,
-      "length": 30,
-      "location": [
-        -79.5,
-        14.5
-      ],
-      "style": "CMC",
-      "width": 10
-    },
-    {
-      "angle": -180,
-      "contrailSize": 30,
-      "length": 30,
-      "location": [
-        -79.5,
-        -14.5
-      ],
-      "style": "CMC",
-      "width": 10
-    },
-    {
-      "angle": 180,
-      "contrailSize": 10,
-      "length": 26,
-      "location": [
-        -80.5,
-        26
-      ],
-      "style": "CMC",
-      "width": 10
-    },
-    {
-      "angle": -180,
-      "contrailSize": 10,
-      "length": 26,
-      "location": [
-        -80.5,
-        -26
-      ],
-      "style": "CMC",
-      "width": 10
-    },
-    {
-      "angle": 180,
-      "contrailSize": 10,
-      "length": 26.5,
-      "location": [
-        -81.5,
-        36.5
-      ],
-      "style": "CMC",
-      "width": 10
-    },
-    {
-      "angle": -180,
-      "contrailSize": 10,
-      "length": 26.5,
-      "location": [
-        -81.5,
-        -36.5
-      ],
-      "style": "CMC",
-      "width": 10
-    }
-  ],
-  "height": 164,
-  "hullId": "cmc_doyinhammer",
-  "hullName": "cmc_doyinhammer",
-  "hullSize": "DESTROYER",
-  "shieldCenter": [
-    0,
-    0
-  ],
-  "shieldRadius": 115,
-  "spriteName": "graphics/cmc/ships/cmc_doyinhammer.png",
-  "style": "CMC",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 150.5,
-      "arc": 136,
       "id": "WS0001",
-      "locations": [
-        -28,
-        39
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
-    },
-    {
-      "angle": -150.5,
+      "type": "BALLISTIC",
+      "mount": "TURRET",
       "arc": 136,
+      "angle": 150.5,
+      "locations": [-28, 39]
+    },
+    {
       "id": "WS0002",
-      "locations": [
-        -28,
-        -39
-      ],
+      "size": "SMALL",
+      "type": "BALLISTIC",
       "mount": "TURRET",
-      "size": "SMALL",
-      "type": "BALLISTIC"
+      "arc": 136,
+      "angle": -150.5,
+      "locations": [-28, -39]
     },
     {
-      "angle": 0,
-      "arc": 10,
       "id": "WS0003",
-      "locations": [
-        70.5,
-        31
-      ],
-      "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "COMPOSITE"
-    },
-    {
-      "angle": -0,
-      "arc": 10,
-      "id": "WS0004",
-      "locations": [
-        70.5,
-        -31
-      ],
+      "type": "COMPOSITE",
       "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "COMPOSITE"
-    },
-    {
-      "angle": 90,
       "arc": 10,
-      "id": "WS0005",
-      "locations": [
-        2,
-        31
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "COMPOSITE"
-    },
-    {
-      "angle": -90,
-      "arc": 10,
-      "id": "WS0006",
-      "locations": [
-        2,
-        -31
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "COMPOSITE"
-    },
-    {
-      "angle": -0,
-      "arc": 10,
-      "id": "WS0007",
-      "locations": [
-        47,
-        -0
-      ],
-      "mount": "HARDPOINT",
-      "size": "LARGE",
-      "type": "COMPOSITE"
-    },
-    {
       "angle": 0,
-      "arc": 360,
-      "id": "LB 1",
-      "locations": [
-        -20,
-        6,
-        -9.5,
-        6,
-        -10,
-        -6,
-        -20,
-        -6
-      ],
-      "mount": "HIDDEN",
+      "locations": [70.5, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [70.5, -31]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [2, 31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [2, -31]
+    },
+    {
+      "id": "WS0007",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -20, 6,
+        -9.5, 6,
+        -10, -6,
+        -20, -6
+      ]
     }
   ],
-  "width": 108
+  "engineSlots": [
+    {
+      "location": [-79.5, 14.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CMC"
+    },
+    {
+      "location": [-79.5, -14.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CMC"
+    },
+    {
+      "location": [-80.5, 26],
+      "length": 26,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CMC"
+    },
+    {
+      "location": [-80.5, -26],
+      "length": 26,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CMC"
+    },
+    {
+      "location": [-81.5, 36.5],
+      "length": 26.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CMC"
+    },
+    {
+      "location": [-81.5, -36.5],
+      "length": 26.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CMC"
+    }
+  ],
+  "bounds": [
+    -46, -6.5,
+    -77.5, -9,
+    -80, -42.5,
+    -73, -47,
+    -65.5, -40,
+    -39.5, -45,
+    -36, -51.5,
+    -20.5, -51.5,
+    -6.5, -34,
+    22, -24.5,
+    39.5, -24,
+    40, -49,
+    59, -51,
+    70, -35.5,
+    66, -21,
+    66, 21,
+    70, 35.5,
+    59, 51,
+    40, 49,
+    39.5, 24,
+    22, 24.5,
+    -6.5, 34,
+    -20.5, 51.5,
+    -36, 51.5,
+    -39.5, 45,
+    -65.5, 40,
+    -73, 47,
+    -80, 42.5,
+    -77.5, 9,
+    -46, 6.5
+  ]
 }

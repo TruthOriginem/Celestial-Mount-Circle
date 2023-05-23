@@ -1,11 +1,12 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 4,
+    "fluxCapacitors": 10,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "cmc_manman",
     "hullMods": ["targetingunit"],
     "permaMods": [],
+    "sMods": [],
     "variantId": "cmc_manman_Standard",
     "weaponGroups": [
         {

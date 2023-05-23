@@ -1,54 +1,16 @@
 {
-  "bounds": [
-    -40.5,
-    -9,
-    -52,
-    -21,
-    -46,
-    -61.5,
-    -33.5,
-    -67,
-    -11.5,
-    -63,
-    -10.5,
-    -57,
-    -3.5,
-    -58,
-    0,
-    -66,
-    20.5,
-    -70,
-    37.5,
-    -66,
-    48.5,
-    -40,
-    43,
-    -15.5,
-    43,
-    15.5,
-    48.5,
-    40,
-    37.5,
-    66,
-    20.5,
-    70,
-    0,
-    66,
-    -3.5,
-    58,
-    -10.5,
-    57,
-    -11.5,
-    63,
-    -33.5,
-    67,
-    -46,
-    61.5,
-    -52,
-    21,
-    -40.5,
-    9
-  ],
+  "hullName": "cmc_manman",
+  "hullId": "cmc_manman",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/cmc/ships/cmc_manman.png",
+  "style": "CMC",
+  "height": 108,
+  "width": 140,
+  "center": [70, 54],
+  "collisionRadius": 107.5,
+  "shieldCenter": [3.5, -0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
   "builtInMods": [
     "cmc_hpshieldgen",
     "cmc_homeforspirits_system"
@@ -56,224 +18,182 @@
   "builtInWings": [
     "cmc_spiritforce_two_wing"
   ],
-  "center": [
-    70,
-    54
-  ],
-  "collisionRadius": 107.5,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 23,
-      "location": [
-        -52,
-        52
-      ],
-      "style": "CMC",
-      "width": 8
-    },
-    {
-      "angle": -180,
-      "contrailSize": 8,
-      "length": 23,
-      "location": [
-        -52,
-        -52
-      ],
-      "style": "CMC",
-      "width": 8
-    },
-    {
-      "angle": 180,
-      "contrailSize": 11,
-      "length": 28,
-      "location": [
-        -53,
-        39
-      ],
-      "style": "CMC",
-      "width": 11
-    },
-    {
-      "angle": -180,
-      "contrailSize": 11,
-      "length": 28,
-      "location": [
-        -53,
-        -39
-      ],
-      "style": "CMC",
-      "width": 11
-    },
-    {
-      "angle": 180,
-      "contrailSize": 11,
-      "length": 32,
-      "location": [
-        -54,
-        29
-      ],
-      "style": "CMC",
-      "width": 11
-    },
-    {
-      "angle": -180,
-      "contrailSize": 11,
-      "length": 32,
-      "location": [
-        -54,
-        -29
-      ],
-      "style": "CMC",
-      "width": 11
-    },
-    {
-      "angle": 180,
-      "contrailSize": 7,
-      "length": 18.5,
-      "location": [
-        -53.5,
-        21
-      ],
-      "style": "CMC",
-      "width": 7
-    },
-    {
-      "angle": -180,
-      "contrailSize": 7,
-      "length": 18.5,
-      "location": [
-        -53.5,
-        -21
-      ],
-      "style": "CMC",
-      "width": 7
-    }
-  ],
-  "height": 108,
-  "hullId": "cmc_manman",
-  "hullName": "cmc_manman",
-  "hullSize": "DESTROYER",
-  "shieldCenter": [
-    3.5,
-    -0
-  ],
-  "shieldRadius": 100,
-  "spriteName": "graphics/cmc/ships/cmc_manman.png",
-  "style": "CMC",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 1",
-      "locations": [
-        -23,
-        5.5,
-        -23,
-        -5.5
-      ],
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
       "mount": "HIDDEN",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -23, 5.5,
+        -23, -5.5
+      ]
     },
     {
-      "angle": 90,
-      "arc": 195,
       "id": "WS0001",
-      "locations": [
-        17,
-        59
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [17, 59]
     },
     {
-      "angle": -90,
-      "arc": 195,
       "id": "WS0002",
-      "locations": [
-        17,
-        -59
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [17, -59]
     },
     {
-      "angle": 0,
-      "arc": 47,
       "id": "WS0003",
-      "locations": [
-        27,
-        29
-      ],
-      "mount": "TURRET",
       "size": "LARGE",
-      "type": "BALLISTIC"
-    },
-    {
-      "angle": -0,
-      "arc": 47,
-      "id": "WS0004",
-      "locations": [
-        27,
-        -29
-      ],
+      "type": "BALLISTIC",
       "mount": "TURRET",
-      "size": "LARGE",
-      "type": "BALLISTIC"
-    },
-    {
+      "arc": 90,
       "angle": 0,
-      "arc": 10,
-      "id": "WS0005",
-      "locations": [
-        37,
-        61
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "COMPOSITE"
+      "locations": [27, 29]
     },
     {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
       "angle": -0,
-      "arc": 10,
-      "id": "WS0006",
-      "locations": [
-        37,
-        -61
-      ],
+      "locations": [27, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
       "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "COMPOSITE"
+      "arc": 10,
+      "angle": 0,
+      "locations": [37, 61]
     },
     {
-      "angle": 102.5,
-      "arc": 59,
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [37, -61]
+    },
+    {
       "id": "WS0007",
-      "locations": [
-        -6,
-        58
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "SYSTEM"
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 59,
+      "angle": 102.5,
+      "locations": [-6, 58]
     },
     {
-      "angle": -102.5,
-      "arc": 59,
       "id": "WS0008",
-      "locations": [
-        -6,
-        -58
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "SYSTEM"
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 59,
+      "angle": -102.5,
+      "locations": [-6, -58]
     }
   ],
-  "width": 140
+  "engineSlots": [
+    {
+      "location": [-52, 52],
+      "length": 23,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CMC"
+    },
+    {
+      "location": [-52, -52],
+      "length": 23,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CMC"
+    },
+    {
+      "location": [-53, 39],
+      "length": 28,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CMC"
+    },
+    {
+      "location": [-53, -39],
+      "length": 28,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "CMC"
+    },
+    {
+      "location": [-54, 29],
+      "length": 32,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CMC"
+    },
+    {
+      "location": [-54, -29],
+      "length": 32,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "CMC"
+    },
+    {
+      "location": [-53.5, 21],
+      "length": 18.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CMC"
+    },
+    {
+      "location": [-53.5, -21],
+      "length": 18.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CMC"
+    }
+  ],
+  "bounds": [
+    -40.5, -9,
+    -52, -21,
+    -46, -61.5,
+    -33.5, -67,
+    -11.5, -63,
+    -10.5, -57,
+    -3.5, -58,
+    0, -66,
+    20.5, -70,
+    37.5, -66,
+    48.5, -40,
+    43, -15.5,
+    43, 15.5,
+    48.5, 40,
+    37.5, 66,
+    20.5, 70,
+    0, 66,
+    -3.5, 58,
+    -10.5, 57,
+    -11.5, 63,
+    -33.5, 67,
+    -46, 61.5,
+    -52, 21,
+    -40.5, 9
+  ]
 }

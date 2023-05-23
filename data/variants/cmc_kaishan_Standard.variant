@@ -1,20 +1,21 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 4,
-    "fluxVents": 8,
+    "fluxCapacitors": 12,
+    "fluxVents": 2,
     "goalVariant": true,
     "hullId": "cmc_kaishan",
     "hullMods": [
-        "targetingunit",
-        "heavyarmor"
+        "missleracks",
+        "reinforcedhull"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "cmc_kaishan_Standard",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0004": "cmc_clarity_aphrodite"}
+            "weapons": {"WS0004": "cmc_dragonfly_launcher"}
         },
         {
             "autofire": false,

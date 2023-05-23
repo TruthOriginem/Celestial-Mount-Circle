@@ -1,15 +1,18 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 18,
-    "fluxVents": 50,
+    "fluxCapacitors": 21,
+    "fluxVents": 40,
     "goalVariant": true,
     "hullId": "cmc_kunlun_g",
     "hullMods": [
         "targetingunit",
-        "reinforcedhull",
-        "heavyarmor"
+        "heavyarmor",
+        "missleracks",
+        "ballistic_rangefinder",
+        "cmc_spiritalter"
     ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "cmc_kunlun_g_Standard",
     "weaponGroups": [
         {
@@ -24,12 +27,17 @@
         },
         {
             "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0024": "cmc_dragonfly_launcher"}
+        },
+        {
+            "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0003": "atropos",
-                "WS0004": "atropos",
-                "WS0005": "atropos",
-                "WS0006": "atropos"
+                "WS0003": "gorgon",
+                "WS0004": "gorgon",
+                "WS0005": "gorgon",
+                "WS0006": "gorgon"
             }
         },
         {
@@ -43,29 +51,36 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0024": "cmc_clarity_aphrodite"}
+            "weapons": {
+                "WS0001": "lightac",
+                "WS0002": "lightac",
+                "WS0009": "lightac",
+                "WS0010": "lightac",
+                "WS0021": "lightac"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "cmc_oip",
-                "WS0002": "cmc_oip",
-                "WS0007": "cmc_oip",
-                "WS0008": "cmc_oip",
-                "WS0009": "vulcan",
-                "WS0010": "vulcan",
-                "WS0011": "railgun",
-                "WS0012": "railgun",
-                "WS0013": "cmc_oip",
-                "WS0014": "cmc_oip",
+                "WS0022": "devastator",
+                "WS0023": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0014": "mininglaser",
                 "WS0015": "vulcan",
                 "WS0016": "vulcan",
                 "WS0019": "vulcan",
-                "WS0020": "vulcan",
-                "WS0021": "railgun",
-                "WS0022": "devastator",
-                "WS0023": "devastator"
+                "WS0020": "vulcan"
             }
         }
     ],

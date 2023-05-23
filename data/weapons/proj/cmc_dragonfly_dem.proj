@@ -1,0 +1,96 @@
+{
+  "id": "cmc_dragonfly_dem",
+  "specClass": "missile",
+  "missileType": "MISSILE",
+  "onFireEffect": "com.fs.starfarer.api.impl.combat.dem.DEMEffect",
+  "behaviorSpec": {
+    "behavior": "CUSTOM",
+    "minDelayBeforeTriggering": 0.25,
+    "triggerDistance": [500, 550],
+    "preferredMinFireDistance": [450, 500],
+    "turnRateBoost": 200,
+    "targetingTime": 0.5,
+    "firingTime": 1.25,
+    "targetingLaserId": "targetinglaser2",
+    "targetingLaserFireOffset": [8, 0, 8, 0],
+    "targetingLaserSweepAngles": [0, -9, 0, 9],
+    "payloadWeaponId": "cmc_dragonfly_payload",
+    "targetingLaserRange": 600,
+    "targetingLaserArc": 15,
+    "bombPumped": true,
+    "fadeOutEngineWhenFiring": false,
+    "destroyMissleWhenDoneFiring": false,
+    "snapFacingToTargetIfCloseEnough": false,
+    "withShapedExplosion": true,
+    "shapedExplosionNumParticles": 30,
+    "shapedExplosionMinParticleDur": 0.4,
+    "shapedExplosionMaxParticleDur": 0.8,
+    "shapedExplosionMinParticleSize": 40,
+    "shapedExplosionMaxParticleSize": 60,
+    "shapedExplosionArc": 45,
+    "shapedExplosionMinParticleVel": 30,
+    "shapedExplosionMaxParticleVel": 120,
+    "shapedExplosionColor": [180, 255, 40, 155],
+    "shapedExplosionEndSizeMin": 0.8,
+    "shapedExplosionEndSizeMax": 1.6,
+    "shapedExplosionScatter": 80,
+  },
+  "sprite": "graphics/cmc/missiles/cmc_dragonfly_dem.png",
+  "size": [16, 24],
+  "center": [8, 12],
+  "collisionRadius": 10,
+  "collisionClass": "MISSILE_NO_FF",
+  "explosionColor": [255, 255, 255, 255], # purely visual, will get a white additively blended core on top of this color
+  "explosionRadius": 50, # purely visual
+  "explosionSpec": {
+    "duration": 0.1,
+    "radius": 75,
+    "coreRadius": 50, # full damage within core radius - at least equal to proximity fuse range
+    "collisionClass": PROJECTILE_NO_FF,
+    "collisionClassByFighter": PROJECTILE_FIGHTER,
+    "particleSizeMin": 4.0,
+    "particleSizeRange": 4.0,
+    "particleDuration": 1,
+    "particleCount": 60,
+    "particleColor": [120, 255, 20, 255],
+    "explosionColor": [120, 255, 20, 255],
+    "useDetailedExplosion": true,
+    "useDetailedExplosionColorAlpha": true,
+    "detailedExplosionRadius": 100,
+    "detailedExplosionFlashRadius": 200,
+    "detailedExplosionFlashDuration": 0.8,
+    "detailedExplosionFlashColorFringe": [180, 255, 50, 100],
+    "detailedExplosionFlashColorCore": [155, 155, 155, 255],
+    "sound": "system_canister_flak_explosion"
+  },
+  "engineSpec": {
+    "turnAcc": 150,
+    "turnRate": 50,
+    "acc": 400,
+    "dec": 70
+  },
+  "engineSlots": [
+    {
+      "id": "ES1",
+      "loc": [-13, 0],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "mode": "QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor": [180, 255, 200, 255],
+        "contrailDuration": 1,
+        "contrailWidthMult": 1,
+        "contrailWidthAddedFractionAtEnd": 2.5, # can be negative. makes trail spread out/narrow at the end
+        "contrailMinSeg": 5, # min segment length, in pixels
+        "contrailMaxSpeedMult": 0.5f,
+        "contrailAngularVelocityMult": 0.5f,
+        "contrailColor": [180, 255, 200, 75],
+        "glowSizeMult": 2.5,
+        "glowAlternateColor": [120, 255, 20, 255],
+        "type": "GLOW" # GLOW or SMOKE; additive or regular blend mode
+      },
+      "width": 6.0,
+      "length": 40.0,
+      "angle": 180.0
+    },
+  ]
+}

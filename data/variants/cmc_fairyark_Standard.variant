@@ -1,17 +1,42 @@
 {
     "displayName": "Standard",
     "fluxCapacitors": 0,
-    "fluxVents": 25,
+    "fluxVents": 9,
     "goalVariant": true,
     "hullId": "cmc_fairyark",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder",
+        "missleracks"
+    ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "cmc_fairyark_Standard",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0012": "cmc_clarity_aphrodite"}
+            "weapons": {"WS0012": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "gorgon",
+                "WS0006": "gorgon",
+                "WS0007": "gorgon",
+                "WS0008": "gorgon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightac",
+                "WS0002": "lightac",
+                "WS0003": "lightac",
+                "WS0004": "lightac"
+            }
         },
         {
             "autofire": true,
@@ -22,15 +47,13 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "cmc_oip",
-                "WS0002": "cmc_oip",
-                "WS0007": "cmc_oip",
-                "WS0008": "cmc_oip"
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser"
             }
         }
     ],
     "wings": [
-        "broadsword_wing",
-        "broadsword_wing"
+        "xyphos_wing",
+        "wasp_wing"
     ]
 }

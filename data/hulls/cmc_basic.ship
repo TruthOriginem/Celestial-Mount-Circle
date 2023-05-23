@@ -1,30 +1,16 @@
 {
-  "bounds": [
-    49.5,
-    12.5,
-    22,
-    24.5,
-    8.5,
-    30,
-    0.5,
-    24,
-    -29.5,
-    23,
-    -48.5,
-    12,
-    -50,
-    -12.5,
-    -32,
-    -23,
-    26.5,
-    -30,
-    43.5,
-    -23.5,
-    44,
-    -8,
-    37.5,
-    0.5
-  ],
+  "hullName": "cmc_basic",
+  "hullId": "cmc_basic",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/cmc/ships/cmc_basic.png",
+  "style": "CMC",
+  "height": 101,
+  "width": 63,
+  "center": [31, 51],
+  "collisionRadius": 68.5,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 66,
+  "viewOffset": 0,
   "builtInMods": [
     "cmc_homeforspirits_system",
     "cmc_hpshieldgen"
@@ -32,121 +18,96 @@
   "builtInWings": [
     "cmc_spiritforce_two_wing"
   ],
-  "center": [
-    31,
-    51
-  ],
-  "collisionRadius": 68.5,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 10,
-      "length": 37,
-      "location": [
-        -51,
-        -0.5
-      ],
-      "style": "CMC",
-      "width": 10
-    },
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 29.5,
-      "location": [
-        -50.5,
-        8.5
-      ],
-      "style": "CMC",
-      "width": 8
-    },
-    {
-      "angle": -180,
-      "contrailSize": 8,
-      "length": 29.5,
-      "location": [
-        -50.5,
-        -9.5
-      ],
-      "style": "CMC",
-      "width": 8
-    }
-  ],
-  "height": 101,
-  "hullId": "cmc_basic",
-  "hullName": "cmc_basic",
-  "hullSize": "FRIGATE",
-  "shieldCenter": [
-    1,
-    -0
-  ],
-  "shieldRadius": 66,
-  "spriteName": "graphics/cmc/ships/cmc_basic.png",
-  "style": "CMC",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 58,
-      "arc": 153,
       "id": "WS0001",
-      "locations": [
-        -16,
-        8
-      ],
+      "size": "SMALL",
+      "type": "BALLISTIC",
       "mount": "TURRET",
-      "size": "SMALL",
-      "type": "BALLISTIC"
+      "arc": 153,
+      "angle": 58,
+      "locations": [-16, 8]
     },
     {
-      "angle": 0,
-      "arc": 0,
       "id": "WS0002",
-      "locations": [
-        37,
-        7
-      ],
-      "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "COMPOSITE"
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [37, 7]
     },
     {
-      "angle": 0,
-      "arc": 0,
       "id": "WS0003",
-      "locations": [
-        33,
-        -15
-      ],
-      "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "COMPOSITE"
-    },
-    {
-      "angle": -90,
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
       "arc": 0,
-      "id": "WS0004",
-      "locations": [
-        7,
-        -17
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "COMPOSITE"
+      "angle": 0,
+      "locations": [33, -15]
     },
     {
-      "angle": 0,
-      "arc": 360,
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [7, -17]
+    },
+    {
       "id": "LB 1",
-      "locations": [
-        -18.5,
-        -9.5,
-        -13,
-        -15.5
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -18.5, -9.5,
+        -13, -15.5
+      ]
     }
   ],
-  "width": 63
+  "engineSlots": [
+    {
+      "location": [-51, -0.5],
+      "length": 37,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CMC"
+    },
+    {
+      "location": [-50.5, 8.5],
+      "length": 29.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CMC"
+    },
+    {
+      "location": [-50.5, -9.5],
+      "length": 29.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CMC"
+    }
+  ],
+  "bounds": [
+    49, 12.5,
+    30.5, 18.5,
+    29, 25,
+    20.5, 23.5,
+    8.5, 30,
+    0.5, 24,
+    -29.5, 23,
+    -48.5, 12,
+    -50, -12.5,
+    -31, -20.5,
+    11, -21.5,
+    26.5, -30,
+    37, -25,
+    37.5, 11
+  ]
 }

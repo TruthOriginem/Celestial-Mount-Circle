@@ -1,15 +1,18 @@
 {
-    "starSystems":{
-      "planet_name_yuanming":"Yuan Ming",
-      "planet_name_mingyue":"Ming Yue",
-    },
-	"shipSystem":{
-      "linearDriveData0":"increased engine power",
-	},
-    "hullMod":{
-      "hfsSystem":"performance decreased by %s",
-    },
-    
+  "cmc_starSystem": {
+    "planet_name_yuanming": "Yuan Ming",
+    "planet_name_mingyue": "Ming Yue",
+  },
+  "cmc_shipSystem": {
+    "linearDriveData0": "increased engine power",
+  },
+  "cmc_hullmod": {
+    "hfs_tips": "The core system of CMC, allocating ships' computing power to enable the full power mode of built-in funnels which they couldn't have access to by common methods. The funnels, which is named as spirits, will make ship lose its performance while they are destroyed or reserved. ",
+    "hpsg_tips": "Shield generator is the second key safety system of CMC.",
+    "hfsSystem_title": "Spirit-Loss Penalty",
+    "hfsSystem_0": "flux dissipation",
+    "hfsSystem_1": "maneuverability",
+  },
 }
 
 

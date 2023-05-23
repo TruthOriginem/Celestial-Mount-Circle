@@ -1,44 +1,49 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 30,
+    "fluxCapacitors": 16,
     "fluxVents": 30,
+    "goalVariant": true,
     "hullId": "cmc_baxia",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder"
+    ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "cmc_baxia_Standard",
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0015": "cmc_clarity_aphrodite",
-                "WS0016": "cmc_clarity_aphrodite"
+                "WS0015": "cmc_clarity_hellbore",
+                "WS0016": "cmc_clarity_hellbore"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0007": "lightac",
-                "WS0008": "lightac"
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "lightmortar",
-                "WS0002": "lightmortar",
-                "WS0003": "lightmortar",
-                "WS0004": "lightmortar"
+                "WS0001": "lightac",
+                "WS0002": "lightac",
+                "WS0003": "lightac",
+                "WS0004": "lightac"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0009": "vulcan",
-                "WS0010": "vulcan"
+                "WS0009": "heatseeker",
+                "WS0010": "heatseeker"
             }
         },
         {

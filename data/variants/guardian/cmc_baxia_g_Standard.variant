@@ -1,56 +1,65 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 30,
-    "fluxVents": 30,
+    "fluxCapacitors": 11,
+    "fluxVents": 16,
+    "goalVariant": true,
     "hullId": "cmc_baxia_g",
-    "hullMods": ["targetingunit"],
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "ballistic_rangefinder",
+        "cmc_spiritalter"
+    ],
     "permaMods": [],
+    "sMods": [],
     "variantId": "cmc_baxia_g_Standard",
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "LINKED",
+            "weapons": {"WS0016": "hellbore"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS0015": "cmc_clarity_aphrodite",
-                "WS0016": "cmc_clarity_aphrodite"
+                "WS0007": "gorgon",
+                "WS0008": "gorgon",
+                "WS0009": "gorgon",
+                "WS0010": "gorgon"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0007": "lightac",
-                "WS0008": "lightac"
+                "WS0001": "lightac",
+                "WS0002": "lightac",
+                "WS0003": "lightac",
+                "WS0004": "lightac"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {
-                "WS0001": "lightmortar",
-                "WS0002": "lightmortar",
-                "WS0003": "lightmortar",
-                "WS0004": "lightmortar"
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS0009": "vulcan",
-                "WS0010": "vulcan"
-            }
+            "weapons": {"WS0015": "devastator"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS0005": "cmc_oip",
-                "WS0006": "cmc_oip",
-                "WS0011": "cmc_oip",
-                "WS0012": "cmc_oip",
-                "WS0013": "lightmg",
-                "WS0014": "lightmg"
+                "WS0006": "cmc_oip"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0014": "mininglaser"
             }
         }
     ],

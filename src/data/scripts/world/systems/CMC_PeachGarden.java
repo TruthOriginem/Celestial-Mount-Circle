@@ -3,7 +3,6 @@ package data.scripts.world.systems;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
-import com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry;
 import com.fs.starfarer.api.impl.campaign.econ.impl.InstallableItemEffect;
 import com.fs.starfarer.api.impl.campaign.econ.impl.ItemEffectsRepo;
 import com.fs.starfarer.api.impl.campaign.ids.*;
@@ -12,7 +11,6 @@ import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.procgen.themes.SalvageSpecialAssigner;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
-import data.utils.cmc.I18nUtil;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -21,6 +19,7 @@ import java.util.Arrays;
 import static com.fs.starfarer.api.impl.campaign.terrain.DebrisFieldTerrainPlugin.DebrisFieldParams;
 import static com.fs.starfarer.api.impl.campaign.terrain.DebrisFieldTerrainPlugin.DebrisFieldSource;
 import static data.scripts.world.CMCWorldGen.addMarketplace;
+import static data.utils.cmc.Constants.i18n_starSystem;
 
 public class CMC_PeachGarden {
     public void generate(SectorAPI sector) {
@@ -40,7 +39,7 @@ public class CMC_PeachGarden {
         system.addAsteroidBelt(pg_Star, 100, 2200f, 150f, 180, 360, Terrain.ASTEROID_BELT, "");
 
         //a new planet for people
-        PlanetAPI yuanming = system.addPlanet("cmc_planet_yuanming", pg_Star, I18nUtil.getStarSystemsString("planet_name_yuanming"), "terran", 215, 120f, 4500f, 365f);
+        PlanetAPI yuanming = system.addPlanet("cmc_planet_yuanming", pg_Star, i18n_starSystem.get("planet_name_yuanming"), "terran", 215, 120f, 4500f, 365f);
 
         //a new market for planet
         MarketAPI yuanmingMarket = addMarketplace("cmc", yuanming, null
@@ -86,7 +85,7 @@ public class CMC_PeachGarden {
         InstallableItemEffect itemEffect = ItemEffectsRepo.ITEM_EFFECTS.get(Items.CORRUPTED_NANOFORGE);
         itemEffect.apply(yuanmingOrbitalWorks);
 
-        PlanetAPI mingyue = system.addPlanet("cmc_planet_mingyue", yuanming, I18nUtil.getStarSystemsString("planet_name_mingyue"), "barren", 90, 60, 1000f, 30);
+        PlanetAPI mingyue = system.addPlanet("cmc_planet_mingyue", yuanming, i18n_starSystem.get("planet_name_mingyue"), "barren", 90, 60, 1000f, 30);
 
         MarketAPI mingyueMarket = addMarketplace("cmc", mingyue, null
                 , mingyue.getName(), 6,
@@ -154,8 +153,12 @@ public class CMC_PeachGarden {
 
     }
 
-    //Learning from Tart scripts
-    //Clean nearby Nebula(nearby system)
+    /**
+     * Learning from Tart scripts
+     * Clean nearby Nebula(nearby system)
+     * Could use the same method in MagicCampaign
+     * @param system
+     */
     private void cleanup(StarSystemAPI system) {
         HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin();
         NebulaEditor editor = new NebulaEditor(plugin);

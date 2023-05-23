@@ -1,3 +1,7 @@
+v1.5
+-Compatible with 0.96a
+-Lots of changes...
+
 v1.4
 -Compatible with 0.95a
 -Home-For-Spirits System has a threshold of 30% on the performance reduction.
